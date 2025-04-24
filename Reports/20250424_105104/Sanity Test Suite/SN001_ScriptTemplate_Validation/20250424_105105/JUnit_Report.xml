@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SN001_ScriptTemplate_Validation" time="113.205" tests="1" failures="0" errors="0">
+   <testsuite name="SN001_ScriptTemplate_Validation" tests="1" failures="0" errors="0" time="113.205" skipped="0" timestamp="24-04-2025T10:51:18" hostname="MunyaradziKandoro - DESKTOP-06T37RT" id="Test Suites/Sanity Test Suite/SN001_ScriptTemplate_Validation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\MunyaradziKandoro\\git\\Script-Template-Manager-Web-UI-Testing\\Reports\\20250424_105104\\Sanity Test Suite\\SN001_ScriptTemplate_Validation\\20250424_105105"/>
+         <property name="logFiles" value="C:\\Users\\MunyaradziKandoro\\git\\Script-Template-Manager-Web-UI-Testing\\Reports\\20250424_105104\\Sanity Test Suite\\SN001_ScriptTemplate_Validation\\20250424_105105\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="MunyaradziKandoro - DESKTOP-06T37RT"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 135.0.7049.96"/>
+         <property name="hostAddress" value="192.168.1.100"/>
+         <property name="sessionId" value="0a8e7df2295095f9855db8ba230eca7c"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC01 - Add Script Template" time="108.143" classname="Test Cases/TC01 - Add Script Template" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) Descr...":"This is a sample","(Default) TextS...":"Rear {{policy.accountHolder}},\n\nWe have the following information on record for ID {{legalRefNo}}. Your policy with policy number {{policy.policyNo}} under the {{policy.productName}} is now ready.\n\nPlease contact us and confirm that your account is with {{policy.bankName}}.\n\nThe Benefits table is depicted below:\n{{policy.benefits}}\n\nThe Signatures table is depicted below:\n{{policy.signatures}}\n\nThe Contacts table is depicted below:\n{{policy.memberContacts}}\n\nKind regards","(Default) Type":"1","(Default) Merge...":"}}","(Default) Appli...":"33","(Default) Name":"Json_Testing_Template_6"}]]></property>
+         </properties>
+         <system-out><![CDATA[24-04-2025T10:51:23 - [TEST_CASE][PASSED] - Test Cases/TC01 - Add Script Template: Test Cases/TC01 - Add Script Template
+
+24-04-2025T10:51:24 - [TEST_STEP][PASSED] - Start listener action : logBeforeTestCase: null
+
+24-04-2025T10:51:24 - [TEST_STEP][PASSED] - comment("Initialize setup for Test Case Execution"): Initialize setup for Test Case Execution
+
+24-04-2025T10:51:24 - [MESSAGE][INFO] - Initialize setup for Test Case Execution
+
+24-04-2025T10:51:24 - [TEST_STEP][PASSED] - markWarning("Test Case Name : " + testCaseContext.getTestCaseId()): Test Case Name : Test Cases/TC01 - Add Script Template
+
+24-04-2025T10:51:24 - [MESSAGE][WARNING] - Test Case Name : Test Cases/TC01 - Add Script Template
+
+24-04-2025T10:51:24 - [TEST_STEP][PASSED] - markWarning("Test Case Variables : " + testCaseContext.getTestCaseVariables()): Test Case Variables : [Type:1, Description:This is a sample, MergeFieldPrefix:{{, MergeFieldSuffix:}}, TextScript:Rear {{policy.accountHolder}},
+
+We have the following information on record for ID {{legalRefNo}}. Your policy with policy number {{policy.policyNo}} under the {{policy.productName}} is now ready.
+
+Please contact us and confirm that your account is with {{policy.bankName}}.
+
+The Benefits table is depicted below:
+{{policy.benefits}}
+
+The Signatures table is depicted below:
+{{policy.signatures}}
+
+The Contacts table is depicted below:
+{{policy.memberContacts}}
+
+Kind regards, Name:Json_Testing_Template_6, ApplicationModule:33]
+
+24-04-2025T10:51:24 - [MESSAGE][WARNING] - Test Case Variables : [Type:1, Description:This is a sample, MergeFieldPrefix:{{, MergeFieldSuffix:}}, TextScript:Rear {{policy.accountHolder}},
+
+We have the following information on record for ID {{legalRefNo}}. Your policy with policy number {{policy.policyNo}} under the {{policy.productName}} is now ready.
+
+Please contact us and confirm that your account is with {{policy.bankName}}.
+
+The Benefits table is depicted below:
+{{policy.benefits}}
+
+The Signatures table is depicted below:
+{{policy.signatures}}
+
+The Contacts table is depicted below:
+{{policy.memberContacts}}
+
+Kind regards, Name:Json_Testing_Template_6, ApplicationModule:33]
+
+24-04-2025T10:51:24 - [TEST_STEP][PASSED] - println("Initializing test data for case " + testCaseContext.getTestCaseId()): null
+
+24-04-2025T10:51:24 - [TEST_STEP][PASSED] - delayDuration = 3: null
+
+24-04-2025T10:51:24 - [TEST_STEP][PASSED] - comment("Story: Add a Script Template"): Story: Add a Script Template
+
+24-04-2025T10:51:24 - [MESSAGE][INFO] - Story: Add a Script Template
+
+24-04-2025T10:51:24 - [TEST_STEP][PASSED] - comment("Given that the user has logged into their account"): Given that the user has logged into their account
+
+24-04-2025T10:51:24 - [MESSAGE][INFO] - Given that the user has logged into their account
+
+24-04-2025T10:51:24 - [TEST_STEP][PASSED] - isLoggedIn = verifyElementNotPresent(findTestObject("Object Repository/Page_Script Template Detail/button_Script Template"), 0, STOP_ON_FAILURE): Web element with id: 'Object Repository/Page_Script Template Detail/button_Script Template' located by 'By.xpath: //button[@id='btnAddScriptTemplate']' is not present after '30' second(s)
+
+24-04-2025T10:51:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-04-2025T10:51:24 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Script Template Detail/button_Script Template' located by 'By.xpath: //button[@id='btnAddScriptTemplate']' is not present after '30' second(s)
+
+24-04-2025T10:51:24 - [TEST_STEP][PASSED] - if (isLoggedIn === true): Object 'Object Repository/Page_Script Template Detail/button_Script Template' is visible
+
+24-04-2025T10:51:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Authentication/Login"), ["Username":findTestData("ScriptTemplateManager/Credentials").getValue(1, 1), "Password":findTestData("ScriptTemplateManager/Credentials").getValue(2, 1), ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/Authentication/Login' successfully
+
+24-04-2025T10:51:25 - [TEST_CASE][PASSED] - Test Cases/Authentication/Login: Test Cases/Authentication/Login
+
+24-04-2025T10:51:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_Login/input_Username_Input_UsernameVal"), 0, STOP_ON_FAILURE): Object 'Object Repository/Page_Login/input_Username_Input_UsernameVal' is visible
+
+24-04-2025T10:51:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-04-2025T10:51:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/input_Username_Input_UsernameVal' is visible
+
+24-04-2025T10:51:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Login/input_Username_Input_UsernameVal"), Username): Keys 'Jvansandwyk11' sent to object: 'Object Repository/Page_Login/input_Username_Input_UsernameVal'
+
+24-04-2025T10:51:29 - [MESSAGE][PASSED] - Keys 'Jvansandwyk11' sent to object: 'Object Repository/Page_Login/input_Username_Input_UsernameVal'
+
+24-04-2025T10:51:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Login/input_Password_Input_PasswordVal"), Password): Keys '123456' sent to object: 'Object Repository/Page_Login/input_Password_Input_PasswordVal'
+
+24-04-2025T10:51:30 - [MESSAGE][PASSED] - Keys '123456' sent to object: 'Object Repository/Page_Login/input_Password_Input_PasswordVal'
+
+24-04-2025T10:51:30 - [TEST_STEP][PASSED] - if (RememberMe): Object 'Object Repository/Page_Login/input_Password_Checkbox' is checked
+
+24-04-2025T10:51:30 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Page_Login/input_Password_Checkbox")): Object 'Object Repository/Page_Login/input_Password_Checkbox' is checked
+
+24-04-2025T10:51:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/input_Password_Checkbox' is checked
+
+24-04-2025T10:51:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Login")): Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+24-04-2025T10:51:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+24-04-2025T10:51:31 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+24-04-2025T10:51:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+24-04-2025T10:51:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ScriptTemplates/icon_Account_Options")): Object: 'Object Repository/Page_ScriptTemplates/icon_Account_Options' is clicked on
+
+24-04-2025T10:51:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ScriptTemplates/icon_Account_Options' is clicked on
+
+24-04-2025T10:51:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_ScriptTemplates/div_Logout"), 0, STOP_ON_FAILURE): Object 'Object Repository/Page_ScriptTemplates/div_Logout' is present
+
+24-04-2025T10:51:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-04-2025T10:51:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ScriptTemplates/div_Logout' is present
+
+24-04-2025T10:51:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ScriptTemplates/div_Script TemplatesScript Template")): Object: 'Object Repository/Page_ScriptTemplates/div_Script TemplatesScript Template' is clicked on
+
+24-04-2025T10:51:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ScriptTemplates/div_Script TemplatesScript Template' is clicked on
+
+24-04-2025T10:51:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/Login' successfully
+
+24-04-2025T10:51:39 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut, STOP_ON_FAILURE): Wait for page load successfully
+
+24-04-2025T10:51:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+24-04-2025T10:51:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_Script Template Detail/button_Script Template"), 0, STOP_ON_FAILURE): Object 'Object Repository/Page_Script Template Detail/button_Script Template' is visible
+
+24-04-2025T10:51:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-04-2025T10:51:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Script Template Detail/button_Script Template' is visible
+
+24-04-2025T10:51:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Script Template Detail/button_Script Template")): Object: 'Object Repository/Page_Script Template Detail/button_Script Template' is clicked on
+
+24-04-2025T10:51:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Script Template Detail/button_Script Template' is clicked on
+
+24-04-2025T10:51:40 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut, STOP_ON_FAILURE): Wait for page load successfully
+
+24-04-2025T10:51:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+24-04-2025T10:51:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_Script Template Detail/input_Name_TemplateDetail_Name_Input"), 0, STOP_ON_FAILURE): Object 'Object Repository/Page_Script Template Detail/input_Name_TemplateDetail_Name_Input' is visible
+
+24-04-2025T10:51:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-04-2025T10:51:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Script Template Detail/input_Name_TemplateDetail_Name_Input' is visible
+
+24-04-2025T10:51:45 - [TEST_STEP][PASSED] - comment("When the user fills in valid information on the Script Template Detail page"): When the user fills in valid information on the Script Template Detail page
+
+24-04-2025T10:51:45 - [MESSAGE][INFO] - When the user fills in valid information on the Script Template Detail page
+
+24-04-2025T10:51:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Script Template Detail/input_Name_TemplateDetail_Name_Input"), Name): Text 'Json_Testing_Template_6' is set on object 'Object Repository/Page_Script Template Detail/input_Name_TemplateDetail_Name_Input'
+
+24-04-2025T10:51:46 - [MESSAGE][PASSED] - Text 'Json_Testing_Template_6' is set on object 'Object Repository/Page_Script Template Detail/input_Name_TemplateDetail_Name_Input'
+
+24-04-2025T10:51:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Script Template Detail/textarea_Description_TemplateDetail_aa8ae6"), Description): Text 'This is a sample' is set on object 'Object Repository/Page_Script Template Detail/textarea_Description_TemplateDetail_aa8ae6'
+
+24-04-2025T10:51:47 - [MESSAGE][PASSED] - Text 'This is a sample' is set on object 'Object Repository/Page_Script Template Detail/textarea_Description_TemplateDetail_aa8ae6'
+
+24-04-2025T10:51:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Script Template Detail/select_Template_Type"), Type, true): All options with value '1' are selected in object 'Object Repository/Page_Script Template Detail/select_Template_Type'  using regular expression
+
+24-04-2025T10:51:48 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_Script Template Detail/select_Template_Type'  using regular expression
+
+24-04-2025T10:51:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Script Template Detail/select_Application_Module"), ApplicationModule, true): All options with value '33' are selected in object 'Object Repository/Page_Script Template Detail/select_Application_Module'  using regular expression
+
+24-04-2025T10:51:51 - [MESSAGE][PASSED] - All options with value '33' are selected in object 'Object Repository/Page_Script Template Detail/select_Application_Module'  using regular expression
+
+24-04-2025T10:51:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Script Template Detail/input_MergeFields_Parenthesis_TemplateDetail_VariablePrefix_Input"), MergeFieldPrefix): Text '{{' is set on object 'Object Repository/Page_Script Template Detail/input_MergeFields_Parenthesis_TemplateDetail_VariablePrefix_Input'
+
+24-04-2025T10:51:51 - [MESSAGE][PASSED] - Text '{{' is set on object 'Object Repository/Page_Script Template Detail/input_MergeFields_Parenthesis_TemplateDetail_VariablePrefix_Input'
+
+24-04-2025T10:51:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Script Template Detail/input_MergeFields_Parenthesis_TemplateDetail_VariableSuffix_Input"), MergeFieldSuffix): Text '}}' is set on object 'Object Repository/Page_Script Template Detail/input_MergeFields_Parenthesis_TemplateDetail_VariableSuffix_Input'
+
+24-04-2025T10:51:52 - [MESSAGE][PASSED] - Text '}}' is set on object 'Object Repository/Page_Script Template Detail/input_MergeFields_Parenthesis_TemplateDetail_VariableSuffix_Input'
+
+24-04-2025T10:51:52 - [TEST_STEP][PASSED] - com.components.ckeditor.CKEditorKeywords.setText(findTestObject("Page_Script Template Detail/iframe_CKEditor_TemplateDetail_TextArea_Script"), TextScript): com.components.ckeditor.CKEditorKeywords.setText is PASSED
+
+24-04-2025T10:51:55 - [MESSAGE][PASSED] - com.components.ckeditor.CKEditorKeywords.setText is PASSED
+
+24-04-2025T10:51:55 - [TEST_STEP][PASSED] - delay(delayDuration): Delayed 3 second(s)
+
+24-04-2025T10:51:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+24-04-2025T10:51:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Script Template Detail/button_Generate Merge Fields")): Object: 'Object Repository/Page_Script Template Detail/button_Generate Merge Fields' is clicked on
+
+24-04-2025T10:51:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Script Template Detail/button_Generate Merge Fields' is clicked on
+
+24-04-2025T10:51:58 - [TEST_STEP][PASSED] - comment("When the user has filled in valid information on the Script Template Detail page"): When the user has filled in valid information on the Script Template Detail page
+
+24-04-2025T10:51:58 - [MESSAGE][INFO] - When the user has filled in valid information on the Script Template Detail page
+
+24-04-2025T10:51:58 - [TEST_STEP][PASSED] - delay(delayDuration): Delayed 3 second(s)
+
+24-04-2025T10:52:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+24-04-2025T10:52:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Script Template Detail/button_Save")): Object: 'Object Repository/Page_Script Template Detail/button_Save' is clicked on
+
+24-04-2025T10:52:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Script Template Detail/button_Save' is clicked on
+
+24-04-2025T10:52:02 - [TEST_STEP][PASSED] - comment("The the user should be able to create a new Script Template"): The the user should be able to create a new Script Template
+
+24-04-2025T10:52:02 - [MESSAGE][INFO] - The the user should be able to create a new Script Template
+
+24-04-2025T10:52:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Script Template Detail/div_Template CV Successfully saved")): Object 'Object Repository/Page_Script Template Detail/div_Template CV Successfully saved' is visible
+
+24-04-2025T10:52:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Script Template Detail/div_Template CV Successfully saved' is visible
+
+24-04-2025T10:52:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Script Template Detail/button_Back")): Object: 'Object Repository/Page_Script Template Detail/button_Back' is clicked on
+
+24-04-2025T10:52:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Script Template Detail/button_Back' is clicked on
+
+24-04-2025T10:52:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC02 - Verify Script Template"), ["Name":Name], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC02 - Verify Script Template' successfully
+
+24-04-2025T10:52:03 - [TEST_CASE][PASSED] - Test Cases/TC02 - Verify Script Template: Test Cases/TC02 - Verify Script Template
+
+24-04-2025T10:52:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Script Template Detail/input_Search input_Input_SearchKeyword"), Name): Keys 'Json_Testing_Template_6' sent to object: 'Object Repository/Page_Script Template Detail/input_Search input_Input_SearchKeyword'
+
+24-04-2025T10:52:04 - [MESSAGE][PASSED] - Keys 'Json_Testing_Template_6' sent to object: 'Object Repository/Page_Script Template Detail/input_Search input_Input_SearchKeyword'
+
+24-04-2025T10:52:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+24-04-2025T10:52:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+24-04-2025T10:52:07 - [TEST_STEP][PASSED] - comment("Number of results returned upon search input"): Number of results returned upon search input
+
+24-04-2025T10:52:07 - [MESSAGE][INFO] - Number of results returned upon search input
+
+24-04-2025T10:52:07 - [TEST_STEP][PASSED] - numberOfItems = getText(findTestObject("Object Repository/Page_ScriptTemplates/span_Number_Of_Items")).toInteger(): Text of object 'Object Repository/Page_ScriptTemplates/span_Number_Of_Items' is: '6'
+
+24-04-2025T10:52:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_ScriptTemplates/span_Number_Of_Items' is: '6'
+
+24-04-2025T10:52:08 - [TEST_STEP][PASSED] - comment("Verify Template if name it is available in the list"): Verify Template if name it is available in the list
+
+24-04-2025T10:52:08 - [MESSAGE][INFO] - Verify Template if name it is available in the list
+
+24-04-2025T10:52:08 - [TEST_STEP][PASSED] - if (numberOfItems >= 1): null
+
+24-04-2025T10:52:08 - [TEST_STEP][PASSED] - isFound = verifyElementText(findTestObject("Object Repository/Page_ScriptTemplates/span_Template_Name"), Name): Actual text and expected text of test object 'Object Repository/Page_ScriptTemplates/span_Template_Name' are matched.
+
+24-04-2025T10:52:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='l3_0-2_0-b8-Content']/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+24-04-2025T10:52:39 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_ScriptTemplates/span_Template_Name'. Try using Self-healing.
+
+24-04-2025T10:52:39 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='l3_0-2_0-b8-Content']/span'.
+
+24-04-2025T10:52:39 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Time Stamp'])[1]/following::span[2]'.
+
+24-04-2025T10:52:40 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/MunyaradziKandoro/git/Script-Template-Manager-Web-UI-Testing/Reports/Self-healing/Object Repository/Page_ScriptTemplates/span_Template_Name_neighbor.png
+
+24-04-2025T10:52:40 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_ScriptTemplates/span_Template_Name' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Time Stamp'])[1]/following::span[2]'.
+
+24-04-2025T10:52:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ScriptTemplates/span_Template_Name' are matched.
+
+24-04-2025T10:52:40 - [TEST_STEP][PASSED] - comment("Custom assertion to check if the Template name is correct"): Custom assertion to check if the Template name is correct
+
+24-04-2025T10:52:40 - [MESSAGE][INFO] - Custom assertion to check if the Template name is correct
+
+24-04-2025T10:52:40 - [TEST_STEP][PASSED] - templateName = getText(findTestObject("Object Repository/Page_ScriptTemplates/span_Template_Name")): Text of object 'Object Repository/Page_ScriptTemplates/span_Template_Name' is: 'Json_Testing_Template_6'
+
+24-04-2025T10:53:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='l3_0-2_0-b8-Content']/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+24-04-2025T10:53:11 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_ScriptTemplates/span_Template_Name'. Try using Self-healing.
+
+24-04-2025T10:53:11 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_ScriptTemplates/span_Template_Name' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Time Stamp'])[1]/following::span[2]'.
+
+24-04-2025T10:53:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_ScriptTemplates/span_Template_Name' is: 'Json_Testing_Template_6'
+
+24-04-2025T10:53:11 - [TEST_STEP][PASSED] - assert templateName == Name: null
+
+24-04-2025T10:53:11 - [MESSAGE][INFO] - 
+
+24-04-2025T10:53:11 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+24-04-2025T10:53:11 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+24-04-2025T10:53:11 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+24-04-2025T10:53:11 - [MESSAGE][INFO] - ==============================================================
+
+24-04-2025T10:53:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC02 - Verify Script Template' successfully
+
+24-04-2025T10:53:11 - [TEST_STEP][PASSED] - Start listener action : logAfterTestCase: null
+
+24-04-2025T10:53:11 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+24-04-2025T10:53:11 - [TEST_STEP][PASSED] - comment("Test Case Execution Completed"): Test Case Execution Completed
+
+24-04-2025T10:53:11 - [MESSAGE][INFO] - Test Case Execution Completed
+
+24-04-2025T10:53:11 - [TEST_STEP][PASSED] - markWarning("Test Case Name : " + testCaseContext.getTestCaseId()): Test Case Name : Test Cases/TC01 - Add Script Template
+
+24-04-2025T10:53:11 - [MESSAGE][WARNING] - Test Case Name : Test Cases/TC01 - Add Script Template
+
+24-04-2025T10:53:11 - [TEST_STEP][PASSED] - markWarning("Test Case Status : " + testCaseContext.getTestCaseStatus()): Test Case Status : PASSED
+
+24-04-2025T10:53:11 - [MESSAGE][WARNING] - Test Case Status : PASSED
+
+24-04-2025T10:53:11 - [TEST_STEP][PASSED] - if (getTestCaseStatus().equals("FAILED")): null
+
+24-04-2025T10:53:11 - [TEST_STEP][PASSED] - println("Reseting test configuration settings..."): null
+
+24-04-2025T10:53:11 - [TEST_STEP][PASSED] - println("Cleaning up resources for case " + testCaseContext.getTestCaseId()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-04-2025T10:51:18 - [TEST_SUITE][PASSED] - SN001_ScriptTemplate_Validation: Test Cases/TC01 - Add Script Template]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

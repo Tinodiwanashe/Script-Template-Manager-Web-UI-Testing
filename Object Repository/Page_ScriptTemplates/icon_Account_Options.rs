@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_Account_Options</name>
+   <tag></tag>
+   <elementGuidId>12c1d77c-93c8-4853-96ae-cd0f2c24e9e7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b2-Popover_Icon']/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon.font-regular.heading5.text-primary.fa.fa-angle-down.fa-1x</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>9df9318a-7b2c-4b13-a207-3bb5fdd04df5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon font-regular heading5 text-primary fa fa-angle-down fa-1x</value>
+      <webElementGuid>61d274bf-e523-4c4d-a7b0-8ca8c9607510</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b2-Popover_Icon&quot;)/i[@class=&quot;icon font-regular heading5 text-primary fa fa-angle-down fa-1x&quot;]</value>
+      <webElementGuid>a0d57ea4-40a2-4379-b123-8a9b3d36806c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b2-Popover_Icon']/i</value>
+      <webElementGuid>65d1254d-9212-4092-a8be-a94215a40775</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/i</value>
+      <webElementGuid>ce6ebcff-c916-4de2-8425-41c6cdde0c2d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_Select_Item</name>
+   <tag></tag>
+   <elementGuidId>15bd193b-b771-4bb2-8aeb-64f6260d7fdd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='l3_0-2_0-Link_Edit']/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon.font-size-h4.fa.fa-pencil-square-o.fa-1x</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#l3_0-2_0-Link_Edit</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>d0c547a4-a89e-429f-a897-8de22e9d73c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon font-size-h4 fa fa-pencil-square-o fa-1x</value>
+      <webElementGuid>b5061bd5-43a9-4e7e-ad8e-6c94ca2cae9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;l3_0-2_0-Link_Edit&quot;)/i[@class=&quot;icon font-size-h4 fa fa-pencil-square-o fa-1x&quot;]</value>
+      <webElementGuid>dee22fa0-e061-4439-9e5b-88313a06c610</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='l3_0-2_0-Link_Edit']/i</value>
+      <webElementGuid>ec7190f4-f881-4c47-99dc-4840f6574048</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/i</value>
+      <webElementGuid>cad0909c-71c5-420a-b97f-bff03e8fb11a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

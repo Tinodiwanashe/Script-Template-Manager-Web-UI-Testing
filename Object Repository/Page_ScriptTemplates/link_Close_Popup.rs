@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_Close_Popup</name>
+   <tag></tag>
+   <elementGuidId>22a4c7bb-5c5b-4c22-b72f-1f148f841c09</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b13-b1-LinkToClose_PopOver']/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon.text-neutral-6.font-size-base.fa.fa-times.fa-1x</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#ConfirmBulkDeletePopup i >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>6d6244dc-b7ec-4bed-9c5e-40dd78877561</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon text-neutral-6 font-size-base fa fa-times fa-1x</value>
+      <webElementGuid>2c550001-616f-4806-a627-3daeaffc49da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b13-b1-LinkToClose_PopOver&quot;)/i[@class=&quot;icon text-neutral-6 font-size-base fa fa-times fa-1x&quot;]</value>
+      <webElementGuid>f3c2eb3f-6c2f-4f1c-a0d3-c834c84cc5b9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b13-b1-LinkToClose_PopOver']/i</value>
+      <webElementGuid>91e04056-be24-4309-b89b-2daf0d187d54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div/div/div/div/div[2]/i</value>
+      <webElementGuid>50f01ba8-01c9-48c8-bc00-e1f801d0cbad</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

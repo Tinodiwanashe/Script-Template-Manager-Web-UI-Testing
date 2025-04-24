@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04 - Preview Script</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>11a91f66-80f3-4d52-970a-97e8987f754d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>51e91fdd-661d-425e-8b3c-e030faf3ad2e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('ScriptTemplateManager/Mergefields_Json').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>51e91fdd-661d-425e-8b3c-e030faf3ad2e</id>
+      <masked>false</masked>
+      <name>MergeFieldJson</name>
+   </variable>
+</TestCaseEntity>

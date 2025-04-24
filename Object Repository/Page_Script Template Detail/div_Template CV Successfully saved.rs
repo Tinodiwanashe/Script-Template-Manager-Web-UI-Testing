@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Template CV Successfully saved</name>
+   <tag></tag>
+   <elementGuidId>dfbd639d-fca5-4c6b-93e2-1a5be6f6cf45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='feedbackMessageContainer']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.feedback-message.feedback-message-success.feedback-message-autoclose</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=&quot;Template 'CV' Successfully saved.&quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e715da5b-59ac-4955-b0a1-fa4db47d594b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>feedback-message feedback-message-success feedback-message-autoclose</value>
+      <webElementGuid>07ba158d-8a1f-47a9-8d9f-914f938ab81e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Template 'CV' Successfully saved.</value>
+      <webElementGuid>afd44d3e-1768-4f7c-88f7-033fc4ec4289</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;feedbackMessageContainer&quot;)/div[@class=&quot;feedback-message feedback-message-success feedback-message-autoclose&quot;]</value>
+      <webElementGuid>e7678f69-cd5e-4ca8-b115-70fac99f42b3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='feedbackMessageContainer']/div</value>
+      <webElementGuid>a415f899-9022-4ccc-973f-dfc67ca270c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ScriptTemplateManager'])[1]/preceding::div[7]</value>
+      <webElementGuid>5e1d4f96-7249-45c5-a7bb-6136d0d24ec4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div</value>
+      <webElementGuid>4b657251-9535-40db-aecb-039499cbbd92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;Template &quot; , &quot;'&quot; , &quot;CV&quot; , &quot;'&quot; , &quot; Successfully saved.&quot;) or . = concat(&quot;Template &quot; , &quot;'&quot; , &quot;CV&quot; , &quot;'&quot; , &quot; Successfully saved.&quot;))]</value>
+      <webElementGuid>92178be9-8bd5-406b-8ae5-8a8b4c6704a2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add a new template for a json payload</description>
+   <name>TC01 - Add Script Template</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ab50f9d3-c55b-4404-b127-b6bbcab66673</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>67ab5067-f82c-4efd-8d00-a7a8f2bc78e6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3ce8ef7c-4788-4b24-a774-03eefadab7f6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>53df918b-884f-4973-86c6-f1f2c9d7b61b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e8a5b563-4bca-4c4d-8db1-cce8c72aac20</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2097ce6c-6701-46df-894e-d190c306bab2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>941f564c-5715-44a8-b15f-df13cfebc723</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c4e5598f-76d1-49a2-9ea9-1f8e4b4cd3e4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('ScriptTemplateManager/Templates').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>67ab5067-f82c-4efd-8d00-a7a8f2bc78e6</id>
+      <masked>false</masked>
+      <name>Name</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ScriptTemplateManager/Templates').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>3ce8ef7c-4788-4b24-a774-03eefadab7f6</id>
+      <masked>false</masked>
+      <name>Description</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ScriptTemplateManager/Templates').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>53df918b-884f-4973-86c6-f1f2c9d7b61b</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ScriptTemplateManager/Templates').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>e8a5b563-4bca-4c4d-8db1-cce8c72aac20</id>
+      <masked>false</masked>
+      <name>ApplicationModule</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ScriptTemplateManager/Templates').getValue(5, 1)</defaultValue>
+      <description></description>
+      <id>2097ce6c-6701-46df-894e-d190c306bab2</id>
+      <masked>false</masked>
+      <name>MergeFieldPrefix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ScriptTemplateManager/Templates').getValue(6, 1)</defaultValue>
+      <description></description>
+      <id>941f564c-5715-44a8-b15f-df13cfebc723</id>
+      <masked>false</masked>
+      <name>MergeFieldSuffix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ScriptTemplateManager/Templates').getValue(7, 1)</defaultValue>
+      <description></description>
+      <id>c4e5598f-76d1-49a2-9ea9-1f8e4b4cd3e4</id>
+      <masked>false</masked>
+      <name>TextScript</name>
+   </variable>
+</TestCaseEntity>
