@@ -13,10 +13,10 @@
       <variableId>51e91fdd-661d-425e-8b3c-e030faf3ad2e</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>findTestData('ScriptTemplateManager/Mergefields_Json').getValue(1, 1)</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>51e91fdd-661d-425e-8b3c-e030faf3ad2e</id>
       <masked>false</masked>
-      <name>MergeFieldJson</name>
+      <name>Json</name>
    </variable>
 </TestCaseEntity>

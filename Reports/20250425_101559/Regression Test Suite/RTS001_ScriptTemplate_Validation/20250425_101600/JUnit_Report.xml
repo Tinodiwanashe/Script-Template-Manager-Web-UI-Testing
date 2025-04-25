@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RTS001_ScriptTemplate_Validation" time="157.803" tests="4" failures="1" errors="1">
+   <testsuite name="RTS001_ScriptTemplate_Validation" tests="4" failures="1" errors="1" time="157.803" skipped="0" timestamp="25-04-2025T10:16:06" hostname="MunyaradziKandoro - DESKTOP-06T37RT" id="Test Suites/Regression Test Suite/RTS001_ScriptTemplate_Validation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\MunyaradziKandoro\\git\\Script-Template-Manager-Web-UI-Testing\\Reports\\20250425_101559\\Regression Test Suite\\RTS001_ScriptTemplate_Validation\\20250425_101600"/>
+         <property name="logFiles" value="C:\\Users\\MunyaradziKandoro\\git\\Script-Template-Manager-Web-UI-Testing\\Reports\\20250425_101559\\Regression Test Suite\\RTS001_ScriptTemplate_Validation\\20250425_101600\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\MunyaradziKandoro\\git\\Script-Template-Manager-Web-UI-Testing\\Reports\\20250425_101559\\Regression Test Suite\\RTS001_ScriptTemplate_Validation\\20250425_101600\\1745569048868.png, C:\\Users\\MunyaradziKandoro\\git\\Script-Template-Manager-Web-UI-Testing\\Reports\\20250425_101559\\Regression Test Suite\\RTS001_ScriptTemplate_Validation\\20250425_101600\\Screenshots/Test Cases/TC01 - Add Script Template.png"/>
+         <property name="hostName" value="MunyaradziKandoro - DESKTOP-06T37RT"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 135.0.7049.96"/>
+         <property name="hostAddress" value="192.168.1.101"/>
+         <property name="sessionId" value="efbcab24cc117ca47171b2cefe6a470f"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Authentication/Login" time="16.382" classname="Test Cases/Authentication/Login" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"Username":"Jvansandwyk11","RememberMe":"TRUE","Password":"123456"}]]></property>
+         </properties>
+         <system-out><![CDATA[25-04-2025T10:16:10 - [TEST_CASE][PASSED] - Test Cases/Authentication/Login: Test Cases/Authentication/Login
+
+25-04-2025T10:16:10 - [TEST_STEP][PASSED] - Start listener action : logBeforeTestCase: null
+
+25-04-2025T10:16:10 - [TEST_STEP][PASSED] - comment("Initialize setup for Test Case Execution"): Initialize setup for Test Case Execution
+
+25-04-2025T10:16:10 - [MESSAGE][INFO] - Initialize setup for Test Case Execution
+
+25-04-2025T10:16:10 - [TEST_STEP][PASSED] - markWarning("Test Case Name : " + testCaseContext.getTestCaseId()): Test Case Name : Test Cases/Authentication/Login
+
+25-04-2025T10:16:10 - [MESSAGE][WARNING] - Test Case Name : Test Cases/Authentication/Login
+
+25-04-2025T10:16:10 - [TEST_STEP][PASSED] - markWarning("Test Case Variables : " + testCaseContext.getTestCaseVariables()): Test Case Variables : [Username:Jvansandwyk11, RememberMe:TRUE, Password:123456]
+
+25-04-2025T10:16:10 - [MESSAGE][WARNING] - Test Case Variables : [Username:Jvansandwyk11, RememberMe:TRUE, Password:123456]
+
+25-04-2025T10:16:10 - [TEST_STEP][PASSED] - println("Initializing test data for case " + testCaseContext.getTestCaseId()): null
+
+25-04-2025T10:16:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_Login/input_Username_Input_UsernameVal"), 0, STOP_ON_FAILURE): Object 'Object Repository/Page_Login/input_Username_Input_UsernameVal' is visible
+
+25-04-2025T10:16:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+25-04-2025T10:16:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/input_Username_Input_UsernameVal' is visible
+
+25-04-2025T10:16:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Login/input_Username_Input_UsernameVal"), Username): Keys 'Jvansandwyk11' sent to object: 'Object Repository/Page_Login/input_Username_Input_UsernameVal'
+
+25-04-2025T10:16:16 - [MESSAGE][PASSED] - Keys 'Jvansandwyk11' sent to object: 'Object Repository/Page_Login/input_Username_Input_UsernameVal'
+
+25-04-2025T10:16:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Login/input_Password_Input_PasswordVal"), Password): Keys '123456' sent to object: 'Object Repository/Page_Login/input_Password_Input_PasswordVal'
+
+25-04-2025T10:16:17 - [MESSAGE][PASSED] - Keys '123456' sent to object: 'Object Repository/Page_Login/input_Password_Input_PasswordVal'
+
+25-04-2025T10:16:17 - [TEST_STEP][PASSED] - if (RememberMe): Object 'Object Repository/Page_Login/input_Password_Checkbox' is checked
+
+25-04-2025T10:16:17 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Page_Login/input_Password_Checkbox")): Object 'Object Repository/Page_Login/input_Password_Checkbox' is checked
+
+25-04-2025T10:16:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/input_Password_Checkbox' is checked
+
+25-04-2025T10:16:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Login")): Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+25-04-2025T10:16:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+25-04-2025T10:16:18 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+25-04-2025T10:16:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+25-04-2025T10:16:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ScriptTemplates/icon_Account_Options")): Object: 'Object Repository/Page_ScriptTemplates/icon_Account_Options' is clicked on
+
+25-04-2025T10:16:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ScriptTemplates/icon_Account_Options' is clicked on
+
+25-04-2025T10:16:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_ScriptTemplates/div_Logout"), 0, STOP_ON_FAILURE): Object 'Object Repository/Page_ScriptTemplates/div_Logout' is present
+
+25-04-2025T10:16:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+25-04-2025T10:16:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ScriptTemplates/div_Logout' is present
+
+25-04-2025T10:16:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ScriptTemplates/div_Script TemplatesScript Template")): Object: 'Object Repository/Page_ScriptTemplates/div_Script TemplatesScript Template' is clicked on
+
+25-04-2025T10:16:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ScriptTemplates/div_Script TemplatesScript Template' is clicked on
+
+25-04-2025T10:16:27 - [TEST_STEP][PASSED] - Start listener action : logAfterTestCase: null
+
+25-04-2025T10:16:27 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+25-04-2025T10:16:27 - [TEST_STEP][PASSED] - comment("Test Case Execution Completed"): Test Case Execution Completed
+
+25-04-2025T10:16:27 - [MESSAGE][INFO] - Test Case Execution Completed
+
+25-04-2025T10:16:27 - [TEST_STEP][PASSED] - markWarning("Test Case Name : " + testCaseContext.getTestCaseId()): Test Case Name : Test Cases/Authentication/Login
+
+25-04-2025T10:16:27 - [MESSAGE][WARNING] - Test Case Name : Test Cases/Authentication/Login
+
+25-04-2025T10:16:27 - [TEST_STEP][PASSED] - markWarning("Test Case Status : " + testCaseContext.getTestCaseStatus()): Test Case Status : PASSED
+
+25-04-2025T10:16:27 - [MESSAGE][WARNING] - Test Case Status : PASSED
+
+25-04-2025T10:16:27 - [TEST_STEP][PASSED] - if (getTestCaseStatus().equals("FAILED")): null
+
+25-04-2025T10:16:27 - [TEST_STEP][PASSED] - println("Reseting test configuration settings..."): null
+
+25-04-2025T10:16:27 - [TEST_STEP][PASSED] - println("Cleaning up resources for case " + testCaseContext.getTestCaseId()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC01 - Add Script Template" time="62.112" classname="Test Cases/TC01 - Add Script Template" status="FAILED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"Type":"1","MergeFieldSuffi...":"}}","Description":"This is a sample","ApplicationModu...":"33","Username":"Jvansandwyk11","RememberMe":"TRUE","MergeFieldPrefi...":"{{","TextScript":"Rear {{policy.accountHolder}},\n\nWe have the following information on record for ID {{legalRefNo}}. Your policy with policy number {{policy.policyNo}} under the {{policy.productName}} is now ready.\n\nPlease contact us and confirm that your account is with {{policy.bankName}}.\n\nThe Benefits table is depicted below:\n{{policy.benefits}}\n\nThe Signatures table is depicted below:\n{{policy.signatures}}\n\nThe Contacts table is depicted below:\n{{policy.memberContacts}}\n\nKind regards","Name":"Json_Testing_Template_6","Password":"123456"}]]></property>
+         </properties>
+         <failure type="FAILED" message="Test Cases/TC01 - Add Script Template FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Script Template Detail/button_Back'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)&#xa;	at TC01 - Add Script Template.run(TC01 - Add Script Template:90)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1745568960491.run(TempTestSuite1745568960491.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button data-button=&quot;&quot; class=&quot;btn&quot; type=&quot;button&quot; id=&quot;Button_Cancel&quot;>...&lt;/button> is not clickable at point (1832, 20). Other element would receive the click: &lt;div data-container=&quot;&quot; class=&quot;padding-left-base padding-right-s&quot; id=&quot;b2-b2-Popover_Icon&quot;>...&lt;/div>&#xa;  (Session info: chrome=135.0.7049.96)&#xa;Build info: version: '4.22.0', revision: 'c5f3146703'&#xa;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Command: [efbcab24cc117ca47171b2cefe6a470f, clickElement {id=f.EB5AAF1DD92DC852DF6EAEBF0F9FD549.d.B7081EABC27491B9D231AD70D71AB4A3.e.1719}]&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MUNYAR~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61941}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61941/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:21508/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Element: [[CChromeDriver: chrome on windows (efbcab24cc117ca47171b2cefe6a470f)] -> xpath: //button[@id='Button_Cancel']]&#xa;Session ID: efbcab24cc117ca47171b2cefe6a470f&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)&#xa;	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)&#xa;	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$CIPX2mHb.click(Unknown Source)&#xa;	at org.openqa.selenium.WebElement$click.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:82)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[25-04-2025T10:16:27 - [TEST_CASE][FAILED] - Test Cases/TC01 - Add Script Template: Test Cases/TC01 - Add Script Template FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Script Template Detail/button_Back'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TC01 - Add Script Template.run(TC01 - Add Script Template:90)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745568960491.run(TempTestSuite1745568960491.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button data-button="" class="btn" type="button" id="Button_Cancel">...</button> is not clickable at point (1832, 20). Other element would receive the click: <div data-container="" class="padding-left-base padding-right-s" id="b2-b2-Popover_Icon">...</div>
+  (Session info: chrome=135.0.7049.96)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [efbcab24cc117ca47171b2cefe6a470f, clickElement {id=f.EB5AAF1DD92DC852DF6EAEBF0F9FD549.d.B7081EABC27491B9D231AD70D71AB4A3.e.1719}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MUNYAR~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61941}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61941/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:21508/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (efbcab24cc117ca47171b2cefe6a470f)] -> xpath: //button[@id='Button_Cancel']]
+Session ID: efbcab24cc117ca47171b2cefe6a470f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$CIPX2mHb.click(Unknown Source)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+
+25-04-2025T10:16:27 - [TEST_STEP][PASSED] - Start listener action : logBeforeTestCase: null
+
+25-04-2025T10:16:27 - [TEST_STEP][PASSED] - comment("Initialize setup for Test Case Execution"): Initialize setup for Test Case Execution
+
+25-04-2025T10:16:27 - [MESSAGE][INFO] - Initialize setup for Test Case Execution
+
+25-04-2025T10:16:27 - [TEST_STEP][PASSED] - markWarning("Test Case Name : " + testCaseContext.getTestCaseId()): Test Case Name : Test Cases/TC01 - Add Script Template
+
+25-04-2025T10:16:27 - [MESSAGE][WARNING] - Test Case Name : Test Cases/TC01 - Add Script Template
+
+25-04-2025T10:16:27 - [TEST_STEP][PASSED] - markWarning("Test Case Variables : " + testCaseContext.getTestCaseVariables()): Test Case Variables : [Type:1, Description:This is a sample, Username:Jvansandwyk11, RememberMe:TRUE, MergeFieldPrefix:{{, MergeFieldSuffix:}}, TextScript:Rear {{policy.accountHolder}},
+
+We have the following information on record for ID {{legalRefNo}}. Your policy with policy number {{policy.policyNo}} under the {{policy.productName}} is now ready.
+
+Please contact us and confirm that your account is with {{policy.bankName}}.
+
+The Benefits table is depicted below:
+{{policy.benefits}}
+
+The Signatures table is depicted below:
+{{policy.signatures}}
+
+The Contacts table is depicted below:
+{{policy.memberContacts}}
+
+Kind regards, Name:Json_Testing_Template_6, ApplicationModule:33, Password:123456]
+
+25-04-2025T10:16:27 - [MESSAGE][WARNING] - Test Case Variables : [Type:1, Description:This is a sample, Username:Jvansandwyk11, RememberMe:TRUE, MergeFieldPrefix:{{, MergeFieldSuffix:}}, TextScript:Rear {{policy.accountHolder}},
+
+We have the following information on record for ID {{legalRefNo}}. Your policy with policy number {{policy.policyNo}} under the {{policy.productName}} is now ready.
+
+Please contact us and confirm that your account is with {{policy.bankName}}.
+
+The Benefits table is depicted below:
+{{policy.benefits}}
+
+The Signatures table is depicted below:
+{{policy.signatures}}
+
+The Contacts table is depicted below:
+{{policy.memberContacts}}
+
+Kind regards, Name:Json_Testing_Template_6, ApplicationModule:33, Password:123456]
+
+25-04-2025T10:16:27 - [TEST_STEP][PASSED] - println("Initializing test data for case " + testCaseContext.getTestCaseId()): null
+
+25-04-2025T10:16:27 - [TEST_STEP][PASSED] - delayDuration = 3: null
+
+25-04-2025T10:16:27 - [TEST_STEP][PASSED] - comment("Story: Add a Script Template"): Story: Add a Script Template
+
+25-04-2025T10:16:27 - [MESSAGE][INFO] - Story: Add a Script Template
+
+25-04-2025T10:16:27 - [TEST_STEP][PASSED] - comment("Given that the user has logged into their account"): Given that the user has logged into their account
+
+25-04-2025T10:16:27 - [MESSAGE][INFO] - Given that the user has logged into their account
+
+25-04-2025T10:16:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+25-04-2025T10:16:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+25-04-2025T10:16:32 - [TEST_STEP][PASSED] - isLoggedIn = verifyElementPresent(findTestObject("Object Repository/Page_ScriptTemplates/span_Account_Name"), 3): Object 'Object Repository/Page_ScriptTemplates/span_Account_Name' is present
+
+25-04-2025T10:16:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ScriptTemplates/span_Account_Name' is present
+
+25-04-2025T10:16:32 - [TEST_STEP][PASSED] - if (isLoggedIn === false): null
+
+25-04-2025T10:16:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Script Template Detail/button_Script Template")): Object: 'Object Repository/Page_Script Template Detail/button_Script Template' is clicked on
+
+25-04-2025T10:16:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Script Template Detail/button_Script Template' is clicked on
+
+25-04-2025T10:16:33 - [TEST_STEP][PASSED] - comment("Navigate to Script Template Detail"): Navigate to Script Template Detail
+
+25-04-2025T10:16:33 - [MESSAGE][INFO] - Navigate to Script Template Detail
+
+25-04-2025T10:16:33 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut, STOP_ON_FAILURE): Wait for page load successfully
+
+25-04-2025T10:16:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+25-04-2025T10:16:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_Script Template Detail/input_Name_TemplateDetail_Name_Input"), 0, STOP_ON_FAILURE): Object 'Object Repository/Page_Script Template Detail/input_Name_TemplateDetail_Name_Input' is visible
+
+25-04-2025T10:16:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+25-04-2025T10:16:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Script Template Detail/input_Name_TemplateDetail_Name_Input' is visible
+
+25-04-2025T10:16:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Script Template Detail/iframe_CKEditor_TemplateDetail_TextArea_Script"), 0, STOP_ON_FAILURE): Object 'Object Repository/Page_Script Template Detail/iframe_CKEditor_TemplateDetail_TextArea_Script' is visible
+
+25-04-2025T10:16:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+25-04-2025T10:16:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Script Template Detail/iframe_CKEditor_TemplateDetail_TextArea_Script' is visible
+
+25-04-2025T10:16:38 - [TEST_STEP][PASSED] - comment("When the user fills in valid information on the Script Template Detail page"): When the user fills in valid information on the Script Template Detail page
+
+25-04-2025T10:16:38 - [MESSAGE][INFO] - When the user fills in valid information on the Script Template Detail page
+
+25-04-2025T10:16:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Script Template Detail/input_Name_TemplateDetail_Name_Input"), Name): Text 'Json_Testing_Template_6' is set on object 'Object Repository/Page_Script Template Detail/input_Name_TemplateDetail_Name_Input'
+
+25-04-2025T10:16:38 - [MESSAGE][PASSED] - Text 'Json_Testing_Template_6' is set on object 'Object Repository/Page_Script Template Detail/input_Name_TemplateDetail_Name_Input'
+
+25-04-2025T10:16:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Script Template Detail/textarea_Description_TemplateDetail_aa8ae6"), Description): Text 'This is a sample' is set on object 'Object Repository/Page_Script Template Detail/textarea_Description_TemplateDetail_aa8ae6'
+
+25-04-2025T10:16:39 - [MESSAGE][PASSED] - Text 'This is a sample' is set on object 'Object Repository/Page_Script Template Detail/textarea_Description_TemplateDetail_aa8ae6'
+
+25-04-2025T10:16:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Script Template Detail/select_Template_Type"), Type, true): All options with value '1' are selected in object 'Object Repository/Page_Script Template Detail/select_Template_Type'  using regular expression
+
+25-04-2025T10:16:40 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_Script Template Detail/select_Template_Type'  using regular expression
+
+25-04-2025T10:16:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Script Template Detail/select_Application_Module"), ApplicationModule, true): All options with value '33' are selected in object 'Object Repository/Page_Script Template Detail/select_Application_Module'  using regular expression
+
+25-04-2025T10:16:43 - [MESSAGE][PASSED] - All options with value '33' are selected in object 'Object Repository/Page_Script Template Detail/select_Application_Module'  using regular expression
+
+25-04-2025T10:16:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Script Template Detail/input_MergeFields_Parenthesis_TemplateDetail_VariablePrefix_Input"), MergeFieldPrefix): Text '{{' is set on object 'Object Repository/Page_Script Template Detail/input_MergeFields_Parenthesis_TemplateDetail_VariablePrefix_Input'
+
+25-04-2025T10:16:44 - [MESSAGE][PASSED] - Text '{{' is set on object 'Object Repository/Page_Script Template Detail/input_MergeFields_Parenthesis_TemplateDetail_VariablePrefix_Input'
+
+25-04-2025T10:16:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Script Template Detail/input_MergeFields_Parenthesis_TemplateDetail_VariableSuffix_Input"), MergeFieldSuffix): Text '}}' is set on object 'Object Repository/Page_Script Template Detail/input_MergeFields_Parenthesis_TemplateDetail_VariableSuffix_Input'
+
+25-04-2025T10:16:45 - [MESSAGE][PASSED] - Text '}}' is set on object 'Object Repository/Page_Script Template Detail/input_MergeFields_Parenthesis_TemplateDetail_VariableSuffix_Input'
+
+25-04-2025T10:16:45 - [TEST_STEP][PASSED] - com.components.ckeditor.CKEditorKeywords.setText(findTestObject("Page_Script Template Detail/iframe_CKEditor_TemplateDetail_TextArea_Script"), TextScript): com.components.ckeditor.CKEditorKeywords.setText is PASSED
+
+25-04-2025T10:16:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+25-04-2025T10:16:48 - [MESSAGE][PASSED] - com.components.ckeditor.CKEditorKeywords.setText is PASSED
+
+25-04-2025T10:16:48 - [TEST_STEP][PASSED] - delay(delayDuration): Delayed 3 second(s)
+
+25-04-2025T10:16:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+25-04-2025T10:16:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Script Template Detail/button_Generate Merge Fields")): Object: 'Object Repository/Page_Script Template Detail/button_Generate Merge Fields' is clicked on
+
+25-04-2025T10:16:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Script Template Detail/button_Generate Merge Fields' is clicked on
+
+25-04-2025T10:16:52 - [TEST_STEP][PASSED] - comment("When the user has filled in valid information on the Script Template Detail page"): When the user has filled in valid information on the Script Template Detail page
+
+25-04-2025T10:16:52 - [MESSAGE][INFO] - When the user has filled in valid information on the Script Template Detail page
+
+25-04-2025T10:16:52 - [TEST_STEP][PASSED] - delay(delayDuration): Delayed 3 second(s)
+
+25-04-2025T10:16:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+25-04-2025T10:16:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Script Template Detail/button_Save")): Object: 'Object Repository/Page_Script Template Detail/button_Save' is clicked on
+
+25-04-2025T10:16:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Script Template Detail/button_Save' is clicked on
+
+25-04-2025T10:16:55 - [TEST_STEP][PASSED] - comment("The the user should be able to create a new Script Template"): The the user should be able to create a new Script Template
+
+25-04-2025T10:16:55 - [MESSAGE][INFO] - The the user should be able to create a new Script Template
+
+25-04-2025T10:16:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Script Template Detail/div_Template CV Successfully saved")): Object 'Object Repository/Page_Script Template Detail/div_Template CV Successfully saved' is visible
+
+25-04-2025T10:16:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Script Template Detail/div_Template CV Successfully saved' is visible
+
+25-04-2025T10:16:56 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_Script Template Detail/button_Back")): Unable to click on object 'Object Repository/Page_Script Template Detail/button_Back' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Script Template Detail/button_Back'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TC01 - Add Script Template.run(TC01 - Add Script Template:90)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745568960491.run(TempTestSuite1745568960491.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button data-button="" class="btn" type="button" id="Button_Cancel">...</button> is not clickable at point (1832, 20). Other element would receive the click: <div data-container="" class="padding-left-base padding-right-s" id="b2-b2-Popover_Icon">...</div>
+  (Session info: chrome=135.0.7049.96)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [efbcab24cc117ca47171b2cefe6a470f, clickElement {id=f.EB5AAF1DD92DC852DF6EAEBF0F9FD549.d.B7081EABC27491B9D231AD70D71AB4A3.e.1719}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MUNYAR~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61941}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61941/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:21508/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (efbcab24cc117ca47171b2cefe6a470f)] -> xpath: //button[@id='Button_Cancel']]
+Session ID: efbcab24cc117ca47171b2cefe6a470f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$CIPX2mHb.click(Unknown Source)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1744378544474.run(Script1744378544474.groovy:90)
+	... 15 more
+)
+
+25-04-2025T10:17:29 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Script Template Detail/button_Back' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Script Template Detail/button_Back'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TC01 - Add Script Template.run(TC01 - Add Script Template:90)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745568960491.run(TempTestSuite1745568960491.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button data-button="" class="btn" type="button" id="Button_Cancel">...</button> is not clickable at point (1832, 20). Other element would receive the click: <div data-container="" class="padding-left-base padding-right-s" id="b2-b2-Popover_Icon">...</div>
+  (Session info: chrome=135.0.7049.96)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [efbcab24cc117ca47171b2cefe6a470f, clickElement {id=f.EB5AAF1DD92DC852DF6EAEBF0F9FD549.d.B7081EABC27491B9D231AD70D71AB4A3.e.1719}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MUNYAR~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61941}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61941/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:21508/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (efbcab24cc117ca47171b2cefe6a470f)] -> xpath: //button[@id='Button_Cancel']]
+Session ID: efbcab24cc117ca47171b2cefe6a470f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$CIPX2mHb.click(Unknown Source)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1744378544474.run(Script1744378544474.groovy:90)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\MunyaradziKandoro\\git\\Script-Template-Manager-Web-UI-Testing\\Reports\\20250425_101559\\Regression Test Suite\\RTS001_ScriptTemplate_Validation\\20250425_101600\\1745569048868.png]]
+
+25-04-2025T10:17:29 - [TEST_STEP][PASSED] - Start listener action : logAfterTestCase: null
+
+25-04-2025T10:17:29 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+25-04-2025T10:17:29 - [TEST_STEP][PASSED] - comment("Test Case Execution Completed"): Test Case Execution Completed
+
+25-04-2025T10:17:29 - [MESSAGE][INFO] - Test Case Execution Completed
+
+25-04-2025T10:17:29 - [TEST_STEP][PASSED] - markWarning("Test Case Name : " + testCaseContext.getTestCaseId()): Test Case Name : Test Cases/TC01 - Add Script Template
+
+25-04-2025T10:17:29 - [MESSAGE][WARNING] - Test Case Name : Test Cases/TC01 - Add Script Template
+
+25-04-2025T10:17:29 - [TEST_STEP][PASSED] - markWarning("Test Case Status : " + testCaseContext.getTestCaseStatus()): Test Case Status : FAILED
+
+25-04-2025T10:17:29 - [MESSAGE][WARNING] - Test Case Status : FAILED
+
+25-04-2025T10:17:29 - [TEST_STEP][PASSED] - if (getTestCaseStatus().equals("FAILED")): null
+
+25-04-2025T10:17:29 - [TEST_STEP][PASSED] - screenshotPath = "Screenshots/" + testCaseContext.getTestCaseId() + ".png": null
+
+25-04-2025T10:17:29 - [TEST_STEP][PASSED] - takeScreenshot(screenshotPath): Taking screenshot successfully
+
+25-04-2025T10:17:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\MunyaradziKandoro\\git\\Script-Template-Manager-Web-UI-Testing\\Reports\\20250425_101559\\Regression Test Suite\\RTS001_ScriptTemplate_Validation\\20250425_101600\\Screenshots/Test Cases/TC01 - Add Script Template.png]]
+
+25-04-2025T10:17:29 - [TEST_STEP][PASSED] - println("Screenshot saved at: " + screenshotPath): null
+
+25-04-2025T10:17:29 - [TEST_STEP][PASSED] - println("Reseting test configuration settings..."): null
+
+25-04-2025T10:17:29 - [TEST_STEP][PASSED] - println("Cleaning up resources for case " + testCaseContext.getTestCaseId()): null]]></system-out>
+         <system-err><![CDATA[25-04-2025T10:16:27 - [TEST_CASE][FAILED] - Test Cases/TC01 - Add Script Template: Test Cases/TC01 - Add Script Template FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Script Template Detail/button_Back'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TC01 - Add Script Template.run(TC01 - Add Script Template:90)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745568960491.run(TempTestSuite1745568960491.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button data-button="" class="btn" type="button" id="Button_Cancel">...</button> is not clickable at point (1832, 20). Other element would receive the click: <div data-container="" class="padding-left-base padding-right-s" id="b2-b2-Popover_Icon">...</div>
+  (Session info: chrome=135.0.7049.96)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [efbcab24cc117ca47171b2cefe6a470f, clickElement {id=f.EB5AAF1DD92DC852DF6EAEBF0F9FD549.d.B7081EABC27491B9D231AD70D71AB4A3.e.1719}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MUNYAR~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61941}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61941/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:21508/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (efbcab24cc117ca47171b2cefe6a470f)] -> xpath: //button[@id='Button_Cancel']]
+Session ID: efbcab24cc117ca47171b2cefe6a470f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$CIPX2mHb.click(Unknown Source)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC03 - Edit Script Template" time="71.477" classname="Test Cases/TC03 - Edit Script Template" status="ERROR">
+         <properties>
+            <property name="data_binding"><![CDATA[{"Username":"Jvansandwyk11","RememberMe":"TRUE","TemplateName":"Json_Testing_Template_6","Password":"123456"}]]></property>
+         </properties>
+         <error type="ERROR" message="Test Cases/TC03 - Edit Script Template FAILED.&#xa;Reason:&#xa;java.lang.NumberFormatException: For input string: &quot;&quot;&#xa;	at TC03 - Edit Script Template.run(TC03 - Edit Script Template:49)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1745568960491.run(TempTestSuite1745568960491.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[25-04-2025T10:17:29 - [TEST_CASE][ERROR] - Test Cases/TC03 - Edit Script Template: Test Cases/TC03 - Edit Script Template FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: ""
+	at TC03 - Edit Script Template.run(TC03 - Edit Script Template:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745568960491.run(TempTestSuite1745568960491.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+25-04-2025T10:17:29 - [TEST_STEP][PASSED] - Start listener action : logBeforeTestCase: null
+
+25-04-2025T10:17:29 - [TEST_STEP][PASSED] - comment("Initialize setup for Test Case Execution"): Initialize setup for Test Case Execution
+
+25-04-2025T10:17:29 - [MESSAGE][INFO] - Initialize setup for Test Case Execution
+
+25-04-2025T10:17:29 - [TEST_STEP][PASSED] - markWarning("Test Case Name : " + testCaseContext.getTestCaseId()): Test Case Name : Test Cases/TC03 - Edit Script Template
+
+25-04-2025T10:17:29 - [MESSAGE][WARNING] - Test Case Name : Test Cases/TC03 - Edit Script Template
+
+25-04-2025T10:17:29 - [TEST_STEP][PASSED] - markWarning("Test Case Variables : " + testCaseContext.getTestCaseVariables()): Test Case Variables : [TemplateName:Json_Testing_Template_6, Username:Jvansandwyk11, RememberMe:TRUE, Password:123456]
+
+25-04-2025T10:17:29 - [MESSAGE][WARNING] - Test Case Variables : [TemplateName:Json_Testing_Template_6, Username:Jvansandwyk11, RememberMe:TRUE, Password:123456]
+
+25-04-2025T10:17:29 - [TEST_STEP][PASSED] - println("Initializing test data for case " + testCaseContext.getTestCaseId()): null
+
+25-04-2025T10:17:29 - [TEST_STEP][PASSED] - delayDuration = 3: null
+
+25-04-2025T10:17:29 - [TEST_STEP][PASSED] - comment("Story: Edit a Script Template"): Story: Edit a Script Template
+
+25-04-2025T10:17:29 - [MESSAGE][INFO] - Story: Edit a Script Template
+
+25-04-2025T10:17:29 - [TEST_STEP][PASSED] - comment("Given that the user has logged into their account"): Given that the user has logged into their account
+
+25-04-2025T10:17:29 - [MESSAGE][INFO] - Given that the user has logged into their account
+
+25-04-2025T10:17:29 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+25-04-2025T10:17:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+25-04-2025T10:17:34 - [TEST_STEP][PASSED] - isLoggedIn = verifyElementPresent(findTestObject("Object Repository/Page_ScriptTemplates/span_Account_Name"), 3): Object 'Object Repository/Page_ScriptTemplates/span_Account_Name' is present
+
+25-04-2025T10:17:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ScriptTemplates/span_Account_Name' is present
+
+25-04-2025T10:17:34 - [TEST_STEP][PASSED] - if (isLoggedIn === false): null
+
+25-04-2025T10:17:34 - [TEST_STEP][ERROR] - else: Test Cases/TC03 - Edit Script Template FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: ""
+	at TC03 - Edit Script Template.run(TC03 - Edit Script Template:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745568960491.run(TempTestSuite1745568960491.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+25-04-2025T10:17:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Script Template Detail/input_Search input_Input_SearchKeyword"), TemplateName): Keys 'Json_Testing_Template_6' sent to object: 'Object Repository/Page_Script Template Detail/input_Search input_Input_SearchKeyword'
+
+25-04-2025T10:18:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'search' and @placeholder = 'Search' and @title = 'Search' and @id = 'Input_SearchKeyword']'. Please recheck the objects properties to make sure the desired element is located. 
+
+25-04-2025T10:18:05 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Script Template Detail/input_Search input_Input_SearchKeyword'. Try using Self-healing.
+
+25-04-2025T10:18:06 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Script Template Detail/input_Search input_Input_SearchKeyword' was broken. Propose an alternative one: '//input'.
+
+25-04-2025T10:18:06 - [MESSAGE][PASSED] - Keys 'Json_Testing_Template_6' sent to object: 'Object Repository/Page_Script Template Detail/input_Search input_Input_SearchKeyword'
+
+25-04-2025T10:18:06 - [TEST_STEP][PASSED] - delay(delayDuration): Delayed 3 second(s)
+
+25-04-2025T10:18:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+25-04-2025T10:18:09 - [TEST_STEP][PASSED] - comment("Number of results returned upon search input"): Number of results returned upon search input
+
+25-04-2025T10:18:09 - [MESSAGE][INFO] - Number of results returned upon search input
+
+25-04-2025T10:18:09 - [TEST_STEP][ERROR] - numberOfItems = getText(findTestObject("Object Repository/Page_ScriptTemplates/span_Number_Of_Items")).toInteger(): Test Cases/TC03 - Edit Script Template FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: ""
+	at TC03 - Edit Script Template.run(TC03 - Edit Script Template:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745568960491.run(TempTestSuite1745568960491.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+25-04-2025T10:18:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='b12-PaginationRecords']/span[5]'. Please recheck the objects properties to make sure the desired element is located. 
+
+25-04-2025T10:18:40 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_ScriptTemplates/span_Number_Of_Items'. Try using Self-healing.
+
+25-04-2025T10:18:40 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_ScriptTemplates/span_Number_Of_Items' was broken. Propose an alternative one: '//span[5]'.
+
+25-04-2025T10:18:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_ScriptTemplates/span_Number_Of_Items' is: '         '
+
+25-04-2025T10:18:40 - [MESSAGE][ERROR] - Test Cases/TC03 - Edit Script Template FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: ""
+	at TC03 - Edit Script Template.run(TC03 - Edit Script Template:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745568960491.run(TempTestSuite1745568960491.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+25-04-2025T10:18:40 - [TEST_STEP][PASSED] - Start listener action : logAfterTestCase: null
+
+25-04-2025T10:18:40 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+25-04-2025T10:18:40 - [TEST_STEP][PASSED] - comment("Test Case Execution Completed"): Test Case Execution Completed
+
+25-04-2025T10:18:40 - [MESSAGE][INFO] - Test Case Execution Completed
+
+25-04-2025T10:18:40 - [TEST_STEP][PASSED] - markWarning("Test Case Name : " + testCaseContext.getTestCaseId()): Test Case Name : Test Cases/TC03 - Edit Script Template
+
+25-04-2025T10:18:40 - [MESSAGE][WARNING] - Test Case Name : Test Cases/TC03 - Edit Script Template
+
+25-04-2025T10:18:40 - [TEST_STEP][PASSED] - markWarning("Test Case Status : " + testCaseContext.getTestCaseStatus()): Test Case Status : ERROR
+
+25-04-2025T10:18:40 - [MESSAGE][WARNING] - Test Case Status : ERROR
+
+25-04-2025T10:18:40 - [TEST_STEP][PASSED] - if (getTestCaseStatus().equals("FAILED")): null
+
+25-04-2025T10:18:40 - [TEST_STEP][PASSED] - println("Reseting test configuration settings..."): null
+
+25-04-2025T10:18:40 - [TEST_STEP][PASSED] - println("Cleaning up resources for case " + testCaseContext.getTestCaseId()): null]]></system-out>
+         <system-err><![CDATA[25-04-2025T10:17:29 - [TEST_CASE][ERROR] - Test Cases/TC03 - Edit Script Template: Test Cases/TC03 - Edit Script Template FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: ""
+	at TC03 - Edit Script Template.run(TC03 - Edit Script Template:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745568960491.run(TempTestSuite1745568960491.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/Logout" time="3.035" classname="Test Cases/Authentication/Logout" status="PASSED">
+         <system-out><![CDATA[25-04-2025T10:18:40 - [TEST_CASE][PASSED] - Test Cases/Authentication/Logout: Test Cases/Authentication/Logout
+
+25-04-2025T10:18:40 - [TEST_STEP][PASSED] - Start listener action : logBeforeTestCase: null
+
+25-04-2025T10:18:40 - [TEST_STEP][PASSED] - comment("Initialize setup for Test Case Execution"): Initialize setup for Test Case Execution
+
+25-04-2025T10:18:40 - [MESSAGE][INFO] - Initialize setup for Test Case Execution
+
+25-04-2025T10:18:40 - [TEST_STEP][PASSED] - markWarning("Test Case Name : " + testCaseContext.getTestCaseId()): Test Case Name : Test Cases/Authentication/Logout
+
+25-04-2025T10:18:40 - [MESSAGE][WARNING] - Test Case Name : Test Cases/Authentication/Logout
+
+25-04-2025T10:18:40 - [TEST_STEP][PASSED] - markWarning("Test Case Variables : " + testCaseContext.getTestCaseVariables()): Test Case Variables : [:]
+
+25-04-2025T10:18:40 - [MESSAGE][WARNING] - Test Case Variables : [:]
+
+25-04-2025T10:18:40 - [TEST_STEP][PASSED] - println("Initializing test data for case " + testCaseContext.getTestCaseId()): null
+
+25-04-2025T10:18:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ScriptTemplates/div_J1_b2-b2-Popover_Icon")): Object: 'Object Repository/Page_ScriptTemplates/div_J1_b2-b2-Popover_Icon' is clicked on
+
+25-04-2025T10:18:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ScriptTemplates/div_J1_b2-b2-Popover_Icon' is clicked on
+
+25-04-2025T10:18:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ScriptTemplates/div_Logout")): Object: 'Object Repository/Page_ScriptTemplates/div_Logout' is clicked on
+
+25-04-2025T10:18:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ScriptTemplates/div_Logout' is clicked on
+
+25-04-2025T10:18:41 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_Login/input_Username_Input_UsernameVal"), 0, STOP_ON_FAILURE): Object 'Object Repository/Page_Login/input_Username_Input_UsernameVal' is visible
+
+25-04-2025T10:18:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+25-04-2025T10:18:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/input_Username_Input_UsernameVal' is visible
+
+25-04-2025T10:18:43 - [TEST_STEP][PASSED] - Start listener action : logAfterTestCase: null
+
+25-04-2025T10:18:43 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+25-04-2025T10:18:43 - [TEST_STEP][PASSED] - comment("Test Case Execution Completed"): Test Case Execution Completed
+
+25-04-2025T10:18:43 - [MESSAGE][INFO] - Test Case Execution Completed
+
+25-04-2025T10:18:43 - [TEST_STEP][PASSED] - markWarning("Test Case Name : " + testCaseContext.getTestCaseId()): Test Case Name : Test Cases/Authentication/Logout
+
+25-04-2025T10:18:43 - [MESSAGE][WARNING] - Test Case Name : Test Cases/Authentication/Logout
+
+25-04-2025T10:18:43 - [TEST_STEP][PASSED] - markWarning("Test Case Status : " + testCaseContext.getTestCaseStatus()): Test Case Status : PASSED
+
+25-04-2025T10:18:43 - [MESSAGE][WARNING] - Test Case Status : PASSED
+
+25-04-2025T10:18:43 - [TEST_STEP][PASSED] - if (getTestCaseStatus().equals("FAILED")): null
+
+25-04-2025T10:18:43 - [TEST_STEP][PASSED] - println("Reseting test configuration settings..."): null
+
+25-04-2025T10:18:43 - [TEST_STEP][PASSED] - println("Cleaning up resources for case " + testCaseContext.getTestCaseId()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[25-04-2025T10:16:06 - [TEST_SUITE][FAILED] - RTS001_ScriptTemplate_Validation: Test Cases/TC01 - Add Script Template FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Script Template Detail/button_Back'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TC01 - Add Script Template.run(TC01 - Add Script Template:90)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745568960491.run(TempTestSuite1745568960491.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button data-button="" class="btn" type="button" id="Button_Cancel">...</button> is not clickable at point (1832, 20). Other element would receive the click: <div data-container="" class="padding-left-base padding-right-s" id="b2-b2-Popover_Icon">...</div>
+  (Session info: chrome=135.0.7049.96)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [efbcab24cc117ca47171b2cefe6a470f, clickElement {id=f.EB5AAF1DD92DC852DF6EAEBF0F9FD549.d.B7081EABC27491B9D231AD70D71AB4A3.e.1719}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MUNYAR~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61941}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61941/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:21508/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (efbcab24cc117ca47171b2cefe6a470f)] -> xpath: //button[@id='Button_Cancel']]
+Session ID: efbcab24cc117ca47171b2cefe6a470f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$CIPX2mHb.click(Unknown Source)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[25-04-2025T10:16:06 - [TEST_SUITE][FAILED] - RTS001_ScriptTemplate_Validation: Test Cases/TC01 - Add Script Template FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Script Template Detail/button_Back'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TC01 - Add Script Template.run(TC01 - Add Script Template:90)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745568960491.run(TempTestSuite1745568960491.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button data-button="" class="btn" type="button" id="Button_Cancel">...</button> is not clickable at point (1832, 20). Other element would receive the click: <div data-container="" class="padding-left-base padding-right-s" id="b2-b2-Popover_Icon">...</div>
+  (Session info: chrome=135.0.7049.96)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [efbcab24cc117ca47171b2cefe6a470f, clickElement {id=f.EB5AAF1DD92DC852DF6EAEBF0F9FD549.d.B7081EABC27491B9D231AD70D71AB4A3.e.1719}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MUNYAR~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61941}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61941/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:21508/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (efbcab24cc117ca47171b2cefe6a470f)] -> xpath: //button[@id='Button_Cancel']]
+Session ID: efbcab24cc117ca47171b2cefe6a470f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$CIPX2mHb.click(Unknown Source)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

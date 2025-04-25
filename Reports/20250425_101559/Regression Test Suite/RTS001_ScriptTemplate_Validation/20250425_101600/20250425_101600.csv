@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RTS001_ScriptTemplate_Validation,Chrome 135.0.7049.96,,,25-04-2025 10:16:06,25-04-2025 10:18:43,"2m - 37,803s",ERROR
+,,,,,,,
+Test Cases/Authentication/Login,Chrome 135.0.7049.96,Loging into the Script Template,,25-04-2025 10:16:10,25-04-2025 10:16:27,"16,382s",PASSED
+"DATA BINDING - {""Username"":""Jvansandwyk11"",""RememberMe"":""TRUE"",""Password"":""123456""}",,,,,,,
+Start listener action : logBeforeTestCase,Chrome 135.0.7049.96,,,25-04-2025 10:16:10,25-04-2025 10:16:10,"0,018s",PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_Login/input_Username_Input_UsernameVal""), 0, STOP_ON_FAILURE)",Chrome 135.0.7049.96,,,25-04-2025 10:16:11,25-04-2025 10:16:16,"5,205s",PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Login/input_Username_Input_UsernameVal""), Username)",Chrome 135.0.7049.96,,,25-04-2025 10:16:16,25-04-2025 10:16:16,"0,341s",PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Login/input_Password_Input_PasswordVal""), Password)",Chrome 135.0.7049.96,,,25-04-2025 10:16:16,25-04-2025 10:16:17,"0,531s",PASSED
+if (RememberMe),Chrome 135.0.7049.96,,,25-04-2025 10:16:17,25-04-2025 10:16:17,"0,559s",PASSED
+"click(findTestObject(""Object Repository/Page_Login/button_Login""))",Chrome 135.0.7049.96,,,25-04-2025 10:16:17,25-04-2025 10:16:18,"0,531s",PASSED
+waitForPageLoad(TimeOut),Chrome 135.0.7049.96,,,25-04-2025 10:16:18,25-04-2025 10:16:18,"0,015s",PASSED
+"click(findTestObject(""Object Repository/Page_ScriptTemplates/icon_Account_Options""))",Chrome 135.0.7049.96,,,25-04-2025 10:16:18,25-04-2025 10:16:26,"8,089s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ScriptTemplates/div_Logout""), 0, STOP_ON_FAILURE)",Chrome 135.0.7049.96,,,25-04-2025 10:16:26,25-04-2025 10:16:26,"0,497s",PASSED
+"click(findTestObject(""Object Repository/Page_ScriptTemplates/div_Script TemplatesScript Template""))",Chrome 135.0.7049.96,,,25-04-2025 10:16:26,25-04-2025 10:16:27,"0,318s",PASSED
+Start listener action : logAfterTestCase,Chrome 135.0.7049.96,,,25-04-2025 10:16:27,25-04-2025 10:16:27,"0,072s",PASSED
+,,,,,,,
+Test Cases/TC01 - Add Script Template,Chrome 135.0.7049.96,Add a new template for a json payload,,25-04-2025 10:16:27,25-04-2025 10:17:29,"1m - 2,112s",FAILED
+"DATA BINDING - {""Type"":""1"",""MergeFieldSuffi..."":""}}"",""Description"":""This is a sample"",""ApplicationModu..."":""33"",""Username"":""Jvansandwyk11"",""RememberMe"":""TRUE"",""MergeFieldPrefi..."":""{{"",""TextScript"":""Rear {{policy.accountHolder}},\n\nWe have the following information on record for ID {{legalRefNo}}. Your policy with policy number {{policy.policyNo}} under the {{policy.productName}} is now ready.\n\nPlease contact us and confirm that your account is with {{policy.bankName}}.\n\nThe Benefits table is depicted below:\n{{policy.benefits}}\n\nThe Signatures table is depicted below:\n{{policy.signatures}}\n\nThe Contacts table is depicted below:\n{{policy.memberContacts}}\n\nKind regards"",""Name"":""Json_Testing_Template_6"",""Password"":""123456""}",,,,,,,
+Start listener action : logBeforeTestCase,Chrome 135.0.7049.96,,,25-04-2025 10:16:27,25-04-2025 10:16:27,"0,006s",PASSED
+delayDuration = 3,Chrome 135.0.7049.96,,,25-04-2025 10:16:27,25-04-2025 10:16:27,"0,000s",PASSED
+"comment(""Story: Add a Script Template"")",Chrome 135.0.7049.96,,,25-04-2025 10:16:27,25-04-2025 10:16:27,"0,000s",PASSED
+"comment(""Given that the user has logged into their account"")",Chrome 135.0.7049.96,,,25-04-2025 10:16:27,25-04-2025 10:16:27,"0,000s",PASSED
+delay(5),Chrome 135.0.7049.96,,,25-04-2025 10:16:27,25-04-2025 10:16:32,"5,032s",PASSED
+"isLoggedIn = verifyElementPresent(findTestObject(""Object Repository/Page_ScriptTemplates/span_Account_Name""), 3)",Chrome 135.0.7049.96,,,25-04-2025 10:16:32,25-04-2025 10:16:32,"0,251s",PASSED
+if (isLoggedIn === false),Chrome 135.0.7049.96,Login if user us not currently logged in.,,25-04-2025 10:16:32,25-04-2025 10:16:32,"0,000s",PASSED
+"click(findTestObject(""Object Repository/Page_Script Template Detail/button_Script Template""))",Chrome 135.0.7049.96,,,25-04-2025 10:16:32,25-04-2025 10:16:33,"0,320s",PASSED
+"comment(""Navigate to Script Template Detail"")",Chrome 135.0.7049.96,,,25-04-2025 10:16:33,25-04-2025 10:16:33,"0,003s",PASSED
+"waitForPageLoad(TimeOut, STOP_ON_FAILURE)",Chrome 135.0.7049.96,,,25-04-2025 10:16:33,25-04-2025 10:16:33,"0,004s",PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_Script Template Detail/input_Name_TemplateDetail_Name_Input""), 0, STOP_ON_FAILURE)",Chrome 135.0.7049.96,,,25-04-2025 10:16:33,25-04-2025 10:16:35,"2,436s",PASSED
+"waitForElementVisible(findTestObject(""Page_Script Template Detail/iframe_CKEditor_TemplateDetail_TextArea_Script""), 0, STOP_ON_FAILURE)",Chrome 135.0.7049.96,,,25-04-2025 10:16:35,25-04-2025 10:16:38,"2,394s",PASSED
+"comment(""When the user fills in valid information on the Script Template Detail page"")",Chrome 135.0.7049.96,,,25-04-2025 10:16:38,25-04-2025 10:16:38,"0,000s",PASSED
+"setText(findTestObject(""Object Repository/Page_Script Template Detail/input_Name_TemplateDetail_Name_Input""), Name)",Chrome 135.0.7049.96,,,25-04-2025 10:16:38,25-04-2025 10:16:38,"0,701s",PASSED
+"setText(findTestObject(""Object Repository/Page_Script Template Detail/textarea_Description_TemplateDetail_aa8ae6""), Description)",Chrome 135.0.7049.96,,,25-04-2025 10:16:38,25-04-2025 10:16:39,"0,876s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Script Template Detail/select_Template_Type""), Type, true)",Chrome 135.0.7049.96,,,25-04-2025 10:16:39,25-04-2025 10:16:40,"1,176s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Script Template Detail/select_Application_Module""), ApplicationModule, true)",Chrome 135.0.7049.96,,,25-04-2025 10:16:40,25-04-2025 10:16:43,"2,879s",PASSED
+"setText(findTestObject(""Object Repository/Page_Script Template Detail/input_MergeFields_Parenthesis_TemplateDetail_VariablePrefix_Input""), MergeFieldPrefix)",Chrome 135.0.7049.96,,,25-04-2025 10:16:43,25-04-2025 10:16:44,"0,565s",PASSED
+"setText(findTestObject(""Object Repository/Page_Script Template Detail/input_MergeFields_Parenthesis_TemplateDetail_VariableSuffix_Input""), MergeFieldSuffix)",Chrome 135.0.7049.96,,,25-04-2025 10:16:44,25-04-2025 10:16:45,"0,801s",PASSED
+"com.components.ckeditor.CKEditorKeywords.setText(findTestObject(""Page_Script Template Detail/iframe_CKEditor_TemplateDetail_TextArea_Script""), TextScript)",Chrome 135.0.7049.96,,,25-04-2025 10:16:45,25-04-2025 10:16:48,"3,796s",PASSED
+delay(delayDuration),Chrome 135.0.7049.96,,,25-04-2025 10:16:48,25-04-2025 10:16:51,"3,012s",PASSED
+"click(findTestObject(""Object Repository/Page_Script Template Detail/button_Generate Merge Fields""))",Chrome 135.0.7049.96,,,25-04-2025 10:16:51,25-04-2025 10:16:52,"0,383s",PASSED
+"comment(""When the user has filled in valid information on the Script Template Detail page"")",Chrome 135.0.7049.96,,,25-04-2025 10:16:52,25-04-2025 10:16:52,"0,001s",PASSED
+delay(delayDuration),Chrome 135.0.7049.96,,,25-04-2025 10:16:52,25-04-2025 10:16:55,"3,007s",PASSED
+"click(findTestObject(""Object Repository/Page_Script Template Detail/button_Save""))",Chrome 135.0.7049.96,,,25-04-2025 10:16:55,25-04-2025 10:16:55,"0,331s",PASSED
+"comment(""The the user should be able to create a new Script Template"")",Chrome 135.0.7049.96,,,25-04-2025 10:16:55,25-04-2025 10:16:55,"0,003s",PASSED
+"verifyElementVisible(findTestObject(""Page_Script Template Detail/div_Template CV Successfully saved""))",Chrome 135.0.7049.96,,,25-04-2025 10:16:55,25-04-2025 10:16:56,"0,713s",PASSED
+"click(findTestObject(""Object Repository/Page_Script Template Detail/button_Back""))",Chrome 135.0.7049.96,,,25-04-2025 10:16:56,25-04-2025 10:17:29,"32,662s",FAILED
+Start listener action : logAfterTestCase,Chrome 135.0.7049.96,,,25-04-2025 10:17:29,25-04-2025 10:17:29,"0,449s",PASSED
+,,,,,,,
+Test Cases/TC03 - Edit Script Template,Chrome 135.0.7049.96,Preview the Script Template ustilizing the preview feature,,25-04-2025 10:17:29,25-04-2025 10:18:40,"1m - 11,477s",ERROR
+"DATA BINDING - {""Username"":""Jvansandwyk11"",""RememberMe"":""TRUE"",""TemplateName"":""Json_Testing_Template_6"",""Password"":""123456""}",,,,,,,
+Start listener action : logBeforeTestCase,Chrome 135.0.7049.96,,,25-04-2025 10:17:29,25-04-2025 10:17:29,"0,007s",PASSED
+delayDuration = 3,Chrome 135.0.7049.96,,,25-04-2025 10:17:29,25-04-2025 10:17:29,"0,000s",PASSED
+"comment(""Story: Edit a Script Template"")",Chrome 135.0.7049.96,,,25-04-2025 10:17:29,25-04-2025 10:17:29,"0,002s",PASSED
+"comment(""Given that the user has logged into their account"")",Chrome 135.0.7049.96,,,25-04-2025 10:17:29,25-04-2025 10:17:29,"0,002s",PASSED
+delay(5),Chrome 135.0.7049.96,,,25-04-2025 10:17:29,25-04-2025 10:17:34,"5,003s",PASSED
+"isLoggedIn = verifyElementPresent(findTestObject(""Object Repository/Page_ScriptTemplates/span_Account_Name""), 3)",Chrome 135.0.7049.96,,,25-04-2025 10:17:34,25-04-2025 10:17:34,"0,236s",PASSED
+if (isLoggedIn === false),Chrome 135.0.7049.96,Login if user us not currently logged in.,,25-04-2025 10:17:34,25-04-2025 10:17:34,"0,000s",PASSED
+else,Chrome 135.0.7049.96,,,25-04-2025 10:17:34,25-04-2025 10:18:40,"1m - 6,032s",ERROR
+Start listener action : logAfterTestCase,Chrome 135.0.7049.96,,,25-04-2025 10:18:40,25-04-2025 10:18:40,"0,021s",PASSED
+,,,,,,,
+Test Cases/Authentication/Logout,Chrome 135.0.7049.96,,,25-04-2025 10:18:40,25-04-2025 10:18:43,"3,035s",PASSED
+Start listener action : logBeforeTestCase,Chrome 135.0.7049.96,,,25-04-2025 10:18:40,25-04-2025 10:18:40,"0,002s",PASSED
+"click(findTestObject(""Object Repository/Page_ScriptTemplates/div_J1_b2-b2-Popover_Icon""))",Chrome 135.0.7049.96,,,25-04-2025 10:18:41,25-04-2025 10:18:41,"0,307s",PASSED
+"click(findTestObject(""Object Repository/Page_ScriptTemplates/div_Logout""))",Chrome 135.0.7049.96,,,25-04-2025 10:18:41,25-04-2025 10:18:41,"0,522s",PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_Login/input_Username_Input_UsernameVal""), 0, STOP_ON_FAILURE)",Chrome 135.0.7049.96,,,25-04-2025 10:18:41,25-04-2025 10:18:43,"2,132s",PASSED
+Start listener action : logAfterTestCase,Chrome 135.0.7049.96,,,25-04-2025 10:18:43,25-04-2025 10:18:43,"0,021s",PASSED

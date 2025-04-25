@@ -9,6 +9,45 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_ScriptTemplates/span_Template_Name_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Login/input_Username_Input_UsernameVal",
+      "brokenLocator": "//input[@id\u003d\u0027Input_UsernameVal\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Login/input_Username_Input_UsernameVal_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Script Template Detail/input_Search input_Input_SearchKeyword",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Script Template Detail/input_Search input_Input_SearchKeyword_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_ScriptTemplates/span_Number_Of_Items",
+      "brokenLocator": "//div[@id\u003d\u0027b12-PaginationRecords\u0027]/span[5]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_ScriptTemplates/span_Number_Of_Items_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_ScriptTemplates/link_Select_Item",
+      "brokenLocator": "//a[@id\u003d\u0027l3_0-2_0-Link_Edit\u0027]/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_ScriptTemplates/link_Select_Item_position.png"
     }
   ]
 }

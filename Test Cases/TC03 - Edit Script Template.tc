@@ -1,9 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Preview the Script Template ustilizing the preview feature</description>
    <name>TC03 - Edit Script Template</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>e3f11cdf-b6a2-4d47-8491-b3b3aeabf52e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>44dc0f0e-fa22-42f6-8965-21518b4cc05e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>33319ec7-abba-493e-8387-8711c3f5aaac</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>655c864d-8d0f-43ea-935b-f7eb0267976f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a70439f9-8a1f-45a0-bd0e-f77773d5e25b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>44dc0f0e-fa22-42f6-8965-21518b4cc05e</id>
+      <masked>false</masked>
+      <name>TemplateName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>33319ec7-abba-493e-8387-8711c3f5aaac</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>655c864d-8d0f-43ea-935b-f7eb0267976f</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>a70439f9-8a1f-45a0-bd0e-f77773d5e25b</id>
+      <masked>false</masked>
+      <name>RememberMe</name>
+   </variable>
 </TestCaseEntity>

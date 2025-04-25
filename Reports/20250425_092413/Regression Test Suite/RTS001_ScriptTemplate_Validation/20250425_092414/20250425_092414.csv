@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RTS001_ScriptTemplate_Validation,Chrome 135.0.7049.96,,,25-04-2025 09:24:20,25-04-2025 09:31:49,"7m - 29,267s",FAILED
+,,,,,,,
+Test Cases/TC01 - Add Script Template,Chrome 135.0.7049.96,Add a new template for a json payload,,25-04-2025 09:28:56,25-04-2025 09:30:36,"1m - 39,479s",FAILED
+"DATA BINDING - {""Type"":""1"",""MergeFieldSuffi..."":""}}"",""Description"":""This is a sample"",""ApplicationModu..."":""33"",""Username"":""Jvansandwyk11"",""RememberMe"":""TRUE"",""MergeFieldPrefi..."":""{{"",""TextScript"":""Rear {{policy.accountHolder}},\n\nWe have the following information on record for ID {{legalRefNo}}. Your policy with policy number {{policy.policyNo}} under the {{policy.productName}} is now ready.\n\nPlease contact us and confirm that your account is with {{policy.bankName}}.\n\nThe Benefits table is depicted below:\n{{policy.benefits}}\n\nThe Signatures table is depicted below:\n{{policy.signatures}}\n\nThe Contacts table is depicted below:\n{{policy.memberContacts}}\n\nKind regards"",""Name"":""Json_Testing_Template_6"",""Password"":""123456""}",,,,,,,
+Start listener action : logBeforeTestCase,Chrome 135.0.7049.96,,,25-04-2025 09:28:56,25-04-2025 09:28:56,"0,004s",PASSED
+delayDuration = 3,Chrome 135.0.7049.96,,,25-04-2025 09:28:56,25-04-2025 09:28:56,"0,000s",PASSED
+"comment(""Story: Add a Script Template"")",Chrome 135.0.7049.96,,,25-04-2025 09:28:56,25-04-2025 09:28:56,"0,002s",PASSED
+"comment(""Given that the user has logged into their account"")",Chrome 135.0.7049.96,,,25-04-2025 09:28:56,25-04-2025 09:28:56,"0,002s",PASSED
+"isLoggedIn = verifyElementNotPresent(findTestObject(""Object Repository/Page_Script Template Detail/button_Script Template""), 0, STOP_ON_FAILURE)",Chrome 135.0.7049.96,,,25-04-2025 09:28:56,25-04-2025 09:28:56,"0,243s",PASSED
+if (isLoggedIn === true),Chrome 135.0.7049.96,Login if user us not currently logged in.,,25-04-2025 09:28:56,25-04-2025 09:30:35,"1m - 38,807s",FAILED
+Start listener action : logAfterTestCase,Chrome 135.0.7049.96,,,25-04-2025 09:30:35,25-04-2025 09:30:36,"0,404s",PASSED
+,,,,,,,
+Test Cases/TC03 - Edit Script Template,Chrome 135.0.7049.96,Preview the Script Template ustilizing the preview feature,,25-04-2025 09:31:44,25-04-2025 09:31:49,"5,713s",FAILED
+"DATA BINDING - {""Username"":""Jvansandwyk11"",""RememberMe"":""TRUE"",""TemplateName"":""Json_Testing_Template_6"",""Password"":""123456""}",,,,,,,
+Start listener action : logBeforeTestCase,Chrome 135.0.7049.96,,,25-04-2025 09:31:44,25-04-2025 09:31:44,"0,002s",PASSED
+delayDuration = 3,Chrome 135.0.7049.96,,,25-04-2025 09:31:44,25-04-2025 09:31:44,"0,000s",PASSED
+"comment(""Story: Edit a Script Template"")",Chrome 135.0.7049.96,,,25-04-2025 09:31:44,25-04-2025 09:31:44,"0,001s",PASSED
+"comment(""Given that the user has logged into their account"")",Chrome 135.0.7049.96,,,25-04-2025 09:31:44,25-04-2025 09:31:44,"0,001s",PASSED
+"waitForPageLoad(TimeOut, STOP_ON_FAILURE)",Chrome 135.0.7049.96,,,25-04-2025 09:31:44,25-04-2025 09:31:44,"0,005s",FAILED
+Start listener action : logAfterTestCase,Chrome 135.0.7049.96,,,25-04-2025 09:31:47,25-04-2025 09:31:49,"2,573s",ERROR

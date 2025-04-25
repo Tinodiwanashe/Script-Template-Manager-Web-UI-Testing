@@ -87,7 +87,7 @@ class Utils {
 	 */
 	@Keyword
 	def List<WebElement> getHtmlTableRows(TestObject table, String outerTagName) {
-		WebElement mailList = WebUI.findWebElement(table)
+		WebElement mailList = WebUiBuiltInKeywords.findWebElement(table)
 		List<WebElement> selectedRows = mailList.findElements(By.xpath("./" + outerTagName + "/tr"))
 		return selectedRows
 	}

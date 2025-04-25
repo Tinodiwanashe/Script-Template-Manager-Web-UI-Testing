@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SN001_ScriptTemplate_Validation,Firefox 137.0.2,,,24-04-2025 15:58:56,24-04-2025 16:00:15,"1m - 18,717s",FAILED
+,,,,,,,
+Test Cases/TC01 - Add Script Template,Firefox 137.0.2,Add a new template for a json payload,,24-04-2025 15:59:03,24-04-2025 16:00:15,"1m - 11,587s",FAILED
+"DATA BINDING - {""(Default) Descr..."":""This is a sample"",""(Default) TextS..."":""Rear {{policy.accountHolder}},\n\nWe have the following information on record for ID {{legalRefNo}}. Your policy with policy number {{policy.policyNo}} under the {{policy.productName}} is now ready.\n\nPlease contact us and confirm that your account is with {{policy.bankName}}.\n\nThe Benefits table is depicted below:\n{{policy.benefits}}\n\nThe Signatures table is depicted below:\n{{policy.signatures}}\n\nThe Contacts table is depicted below:\n{{policy.memberContacts}}\n\nKind regards"",""(Default) Type"":""1"",""(Default) Merge..."":""}}"",""(Default) Appli..."":""33"",""(Default) Name"":""Json_Testing_Template_6""}",,,,,,,
+Start listener action : logBeforeTestCase,Firefox 137.0.2,,,24-04-2025 15:59:04,24-04-2025 15:59:04,"0,018s",PASSED
+delayDuration = 3,Firefox 137.0.2,,,24-04-2025 15:59:04,24-04-2025 15:59:04,"0,001s",PASSED
+"comment(""Story: Add a Script Template"")",Firefox 137.0.2,,,24-04-2025 15:59:04,24-04-2025 15:59:04,"0,004s",PASSED
+"comment(""Given that the user has logged into their account"")",Firefox 137.0.2,,,24-04-2025 15:59:04,24-04-2025 15:59:04,"0,003s",PASSED
+"isLoggedIn = verifyElementNotPresent(findTestObject(""Object Repository/Page_Script Template Detail/button_Script Template""), 0, STOP_ON_FAILURE)",Firefox 137.0.2,,,24-04-2025 15:59:04,24-04-2025 15:59:04,"0,587s",PASSED
+if (isLoggedIn === true),Firefox 137.0.2,Login if user us not currently logged in.,,24-04-2025 15:59:04,24-04-2025 15:59:20,"15,899s",PASSED
+"click(findTestObject(""Object Repository/Page_Script Template Detail/button_Script Template""))",Firefox 137.0.2,,,24-04-2025 15:59:20,24-04-2025 15:59:21,"0,469s",PASSED
+"comment(""Navigate to Script Template Detail"")",Firefox 137.0.2,,,24-04-2025 15:59:21,24-04-2025 15:59:21,"0,002s",PASSED
+"waitForPageLoad(TimeOut, STOP_ON_FAILURE)",Firefox 137.0.2,,,24-04-2025 15:59:21,24-04-2025 15:59:21,"0,010s",PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_Script Template Detail/input_Name_TemplateDetail_Name_Input""), 0, STOP_ON_FAILURE)",Firefox 137.0.2,,,24-04-2025 15:59:21,24-04-2025 15:59:23,"2,566s",PASSED
+"comment(""When the user fills in valid information on the Script Template Detail page"")",Firefox 137.0.2,,,24-04-2025 15:59:23,24-04-2025 15:59:23,"0,002s",PASSED
+"setText(findTestObject(""Object Repository/Page_Script Template Detail/input_Name_TemplateDetail_Name_Input""), Name)",Firefox 137.0.2,,,24-04-2025 15:59:23,24-04-2025 15:59:26,"2,752s",PASSED
+"setText(findTestObject(""Object Repository/Page_Script Template Detail/textarea_Description_TemplateDetail_aa8ae6""), Description)",Firefox 137.0.2,,,24-04-2025 15:59:26,24-04-2025 15:59:27,"0,730s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Script Template Detail/select_Template_Type""), Type, true)",Firefox 137.0.2,,,24-04-2025 15:59:27,24-04-2025 15:59:28,"1,227s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Script Template Detail/select_Application_Module""), ApplicationModule, true)",Firefox 137.0.2,,,24-04-2025 15:59:28,24-04-2025 15:59:30,"2,276s",PASSED
+"setText(findTestObject(""Object Repository/Page_Script Template Detail/input_MergeFields_Parenthesis_TemplateDetail_VariablePrefix_Input""), MergeFieldPrefix)",Firefox 137.0.2,,,24-04-2025 15:59:30,24-04-2025 15:59:31,"0,496s",PASSED
+"setText(findTestObject(""Object Repository/Page_Script Template Detail/input_MergeFields_Parenthesis_TemplateDetail_VariableSuffix_Input""), MergeFieldSuffix)",Firefox 137.0.2,,,24-04-2025 15:59:31,24-04-2025 15:59:32,"0,720s",PASSED
+"com.components.ckeditor.CKEditorKeywords.setText(findTestObject(""Page_Script Template Detail/iframe_CKEditor_TemplateDetail_TextArea_Script""), TextScript)",Firefox 137.0.2,,,24-04-2025 15:59:32,24-04-2025 15:59:36,"3,864s",PASSED
+delay(delayDuration),Firefox 137.0.2,,,24-04-2025 15:59:36,24-04-2025 15:59:39,"3,009s",PASSED
+"click(findTestObject(""Object Repository/Page_Script Template Detail/button_Generate Merge Fields""))",Firefox 137.0.2,,,24-04-2025 15:59:39,24-04-2025 15:59:39,"0,459s",PASSED
+"comment(""When the user has filled in valid information on the Script Template Detail page"")",Firefox 137.0.2,,,24-04-2025 15:59:39,24-04-2025 15:59:39,"0,002s",PASSED
+delay(delayDuration),Firefox 137.0.2,,,24-04-2025 15:59:39,24-04-2025 15:59:42,"3,010s",PASSED
+"click(findTestObject(""Object Repository/Page_Script Template Detail/button_Save""))",Firefox 137.0.2,,,24-04-2025 15:59:42,24-04-2025 15:59:42,"0,462s",PASSED
+"comment(""The the user should be able to create a new Script Template"")",Firefox 137.0.2,,,24-04-2025 15:59:42,24-04-2025 15:59:42,"0,001s",PASSED
+"verifyElementVisible(findTestObject(""Page_Script Template Detail/div_Template CV Successfully saved""))",Firefox 137.0.2,,,24-04-2025 15:59:42,24-04-2025 15:59:43,"0,909s",PASSED
+"click(findTestObject(""Object Repository/Page_Script Template Detail/button_Back""))",Firefox 137.0.2,,,24-04-2025 15:59:43,24-04-2025 16:00:14,"30,793s",FAILED
+Start listener action : logAfterTestCase,Firefox 137.0.2,,,24-04-2025 16:00:14,24-04-2025 16:00:15,"0,353s",PASSED

@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Login/input_Username_Input_UsernameVal",
+      "brokenLocator": "//input[@id\u003d\u0027Input_UsernameVal\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250424_151915/Regression Test Suite/RTS001_ScriptTemplate_Validation/20250424_151916/Object Repository/Page_Login/input_Username_Input_UsernameVal_position.png"
+    }
+  ]
+}

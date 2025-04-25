@@ -4,60 +4,226 @@
    <name>RTS001_ScriptTemplate_Validation</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <mailRecipient>munya@equatorbi.com;</mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>true</rerunImmediately>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>894b34a6-68e7-41dd-93f2-1999732addde</testSuiteGuid>
+   <testCaseLink>
+      <guid>50dd960a-a3c9-4fba-bc5e-9892ddb84ac4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Authentication/Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d479e0c0-ebbe-47d9-8071-974b1ae4f4df</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ScriptTemplateManager/Credentials</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>d479e0c0-ebbe-47d9-8071-974b1ae4f4df</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>4dc84fb1-5b2e-458b-95cb-66fef50dd5b5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d479e0c0-ebbe-47d9-8071-974b1ae4f4df</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>b901d4ca-cd69-4f60-b401-03e39217e421</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d479e0c0-ebbe-47d9-8071-974b1ae4f4df</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>RememberMe</value>
+         <variableId>d19a6022-01a9-46cc-9e25-884e3ac93777</variableId>
+      </variableLink>
+   </testCaseLink>
    <testCaseLink>
       <guid>d0ef3fac-873d-418f-b189-4c6425ff8d3f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC01 - Add Script Template</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>96fac52c-795a-4f78-9b05-2f965681792c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ScriptTemplateManager/Credentials</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>479814a1-dea5-4a97-b29b-b48454bd5131</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/ScriptTemplateManager/Templates</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>479814a1-dea5-4a97-b29b-b48454bd5131</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Name</value>
          <variableId>67ab5067-f82c-4efd-8d00-a7a8f2bc78e6</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>479814a1-dea5-4a97-b29b-b48454bd5131</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Description</value>
          <variableId>3ce8ef7c-4788-4b24-a774-03eefadab7f6</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>479814a1-dea5-4a97-b29b-b48454bd5131</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Type</value>
          <variableId>53df918b-884f-4973-86c6-f1f2c9d7b61b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>479814a1-dea5-4a97-b29b-b48454bd5131</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ApplicationModule</value>
          <variableId>e8a5b563-4bca-4c4d-8db1-cce8c72aac20</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>479814a1-dea5-4a97-b29b-b48454bd5131</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>MergeFieldPrefix</value>
          <variableId>2097ce6c-6701-46df-894e-d190c306bab2</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>479814a1-dea5-4a97-b29b-b48454bd5131</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>MergeFieldSuffix</value>
          <variableId>941f564c-5715-44a8-b15f-df13cfebc723</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>479814a1-dea5-4a97-b29b-b48454bd5131</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TextScript</value>
          <variableId>c4e5598f-76d1-49a2-9ea9-1f8e4b4cd3e4</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>96fac52c-795a-4f78-9b05-2f965681792c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>64d9394a-99d4-4a05-bbb7-7fb7abbd87ff</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>96fac52c-795a-4f78-9b05-2f965681792c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>d66582f2-190f-4d8b-9d91-cfd7d56da73d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>96fac52c-795a-4f78-9b05-2f965681792c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>RememberMe</value>
+         <variableId>1450554e-2102-491e-810b-7303331c0f4c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>90924eb1-3913-49fd-8700-d5eaf50c47d3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC03 - Edit Script Template</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b3602f9c-038a-499b-b958-ad82c38fe357</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ScriptTemplateManager/Credentials</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>4168f24e-067f-4abe-bb67-9131390e662f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ScriptTemplateManager/Mergefields</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d2061749-1e80-419d-9fc3-44a93f88dbea</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ScriptTemplateManager/Mergefields_Json</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9eef9104-d084-48d5-b26d-09b58d7d5a7e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ScriptTemplateManager/Templates</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>9eef9104-d084-48d5-b26d-09b58d7d5a7e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Name</value>
+         <variableId>44dc0f0e-fa22-42f6-8965-21518b4cc05e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b3602f9c-038a-499b-b958-ad82c38fe357</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>33319ec7-abba-493e-8387-8711c3f5aaac</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b3602f9c-038a-499b-b958-ad82c38fe357</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>655c864d-8d0f-43ea-935b-f7eb0267976f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b3602f9c-038a-499b-b958-ad82c38fe357</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>RememberMe</value>
+         <variableId>a70439f9-8a1f-45a0-bd0e-f77773d5e25b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6f5b5cc5-6b50-44a9-830c-1c005ab754b3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC04 - Preview Script</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3902e960-a3c7-42c3-9c63-d734414169e9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ScriptTemplateManager/Mergefields_Json</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>3902e960-a3c7-42c3-9c63-d734414169e9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Json</value>
+         <variableId>51e91fdd-661d-425e-8b3c-e030faf3ad2e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>39e1a9c5-e105-4f95-8bc8-c46e7b330750</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Authentication/Logout</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

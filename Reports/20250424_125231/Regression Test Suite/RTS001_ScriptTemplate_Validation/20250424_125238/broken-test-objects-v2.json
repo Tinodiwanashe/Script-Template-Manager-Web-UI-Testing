@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_ScriptTemplates/span_Template_Name",
+      "brokenLocator": "//div[@id\u003d\u0027l3_0-2_0-b8-Content\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Time Stamp\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250424_125231/Regression Test Suite/RTS001_ScriptTemplate_Validation/20250424_125238/Object Repository/Page_ScriptTemplates/span_Template_Name_neighbor.png"
+    }
+  ]
+}

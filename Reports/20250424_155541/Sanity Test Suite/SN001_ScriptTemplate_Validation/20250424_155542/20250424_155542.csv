@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SN001_ScriptTemplate_Validation,,,,24-04-2025 15:55:53,24-04-2025 15:55:58,"4,573s",FAILED
+,,,,,,,
+Test Cases/TC01 - Add Script Template,,Add a new template for a json payload,,24-04-2025 15:55:56,24-04-2025 15:55:58,"1,417s",FAILED
+"DATA BINDING - {""(Default) Descr..."":""This is a sample"",""(Default) TextS..."":""Rear {{policy.accountHolder}},\n\nWe have the following information on record for ID {{legalRefNo}}. Your policy with policy number {{policy.policyNo}} under the {{policy.productName}} is now ready.\n\nPlease contact us and confirm that your account is with {{policy.bankName}}.\n\nThe Benefits table is depicted below:\n{{policy.benefits}}\n\nThe Signatures table is depicted below:\n{{policy.signatures}}\n\nThe Contacts table is depicted below:\n{{policy.memberContacts}}\n\nKind regards"",""(Default) Type"":""1"",""(Default) Merge..."":""}}"",""(Default) Appli..."":""33"",""(Default) Name"":""Json_Testing_Template_6""}",,,,,,,
+Start listener action : logBeforeTestCase,,,,24-04-2025 15:55:57,24-04-2025 15:55:57,"0,038s",PASSED
+delayDuration = 3,,,,24-04-2025 15:55:57,24-04-2025 15:55:57,"0,001s",PASSED
+"comment(""Story: Add a Script Template"")",,,,24-04-2025 15:55:57,24-04-2025 15:55:57,"0,002s",PASSED
+"comment(""Given that the user has logged into their account"")",,,,24-04-2025 15:55:57,24-04-2025 15:55:57,"0,003s",PASSED
+"isLoggedIn = verifyElementNotPresent(findTestObject(""Object Repository/Page_Script Template Detail/button_Script Template""), 0, STOP_ON_FAILURE)",,,,24-04-2025 15:55:57,24-04-2025 15:55:58,"0,189s",FAILED
+Start listener action : logAfterTestCase,,,,24-04-2025 15:55:58,24-04-2025 15:55:58,"0,078s",ERROR

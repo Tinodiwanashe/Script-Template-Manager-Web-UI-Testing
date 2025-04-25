@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form_ConceptsInitiatives_ThUsernamePasswordRemember meForgot passwordLogin</name>
+   <tag></tag>
+   <elementGuidId>ab57a731-84be-4c7d-a211-b7e24571f55d</elementGuidId>
+   <imagePath>Screenshots/Targets/Page_Login/form_ConceptsInitiatives_ThUsernamePasswordRemember meForgot passwordLogin.png</imagePath>
+   <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+         <value>Screenshots/Targets/Page_Login/form_ConceptsInitiatives_ThUsernamePasswordRemember meForgot passwordLogin.png</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='LoginForm']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#LoginForm</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;ConceptsInitiatives_ThUsernamePasswordRemember meForgot password?Login&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>form</value>
+      <webElementGuid>1dbb6eb6-421c-466a-a569-8e3dda36849f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>login-form</value>
+      <webElementGuid>93e92360-7971-4af4-8d72-77f5563578d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>LoginForm</value>
+      <webElementGuid>c5e3c949-0211-4599-af5c-912b55185cc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ConceptsInitiatives_ThUsernamePasswordRemember meForgot password?Login</value>
+      <webElementGuid>9f3dc280-d679-4b9e-8ca3-6c2617907a53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;LoginForm&quot;)</value>
+      <webElementGuid>ed666660-0b37-4291-9d59-9efdcd6e4c18</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//form[@id='LoginForm']</value>
+      <webElementGuid>a24fd7af-e891-4ca8-bd2d-be484cfdd0d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b1-Content']/div/form</value>
+      <webElementGuid>e606b41b-ea48-4387-9ecf-ccbf4dc158ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form</value>
+      <webElementGuid>bb1834c0-9f0b-47e4-9775-d27e1da5f54a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//form[@id = 'LoginForm' and (text() = 'ConceptsInitiatives_ThUsernamePasswordRemember meForgot password?Login' or . = 'ConceptsInitiatives_ThUsernamePasswordRemember meForgot password?Login')]</value>
+      <webElementGuid>fdf96c82-a988-4ced-8a87-61a86b18c722</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -15,7 +15,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Sanity Test Suite/SN001_ScriptTemplate_Validation</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Regression Test Suite/RTS001_ScriptTemplate_Validation</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -25,7 +25,7 @@
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Sanity Test Suite/SN001_ScriptTemplate_Validation</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Regression Test Suite/RTS001_ScriptTemplate_Validation</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

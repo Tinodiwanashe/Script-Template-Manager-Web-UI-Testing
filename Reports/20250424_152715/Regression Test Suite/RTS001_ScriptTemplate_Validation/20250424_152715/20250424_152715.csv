@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RTS001_ScriptTemplate_Validation,Chrome 135.0.7049.96,,,24-04-2025 15:27:22,24-04-2025 15:30:39,"3m - 16,713s",FAILED
+,,,,,,,
+Test Cases/TC01 - Add Script Template,Chrome 135.0.7049.96,Add a new template for a json payload,,24-04-2025 15:30:07,24-04-2025 15:30:39,"31,724s",FAILED
+"DATA BINDING - {""(Default) Descr..."":""This is a sample"",""(Default) TextS..."":""Rear {{policy.accountHolder}},\n\nWe have the following information on record for ID {{legalRefNo}}. Your policy with policy number {{policy.policyNo}} under the {{policy.productName}} is now ready.\n\nPlease contact us and confirm that your account is with {{policy.bankName}}.\n\nThe Benefits table is depicted below:\n{{policy.benefits}}\n\nThe Signatures table is depicted below:\n{{policy.signatures}}\n\nThe Contacts table is depicted below:\n{{policy.memberContacts}}\n\nKind regards"",""(Default) Type"":""1"",""(Default) Merge..."":""}}"",""(Default) Appli..."":""33"",""(Default) Name"":""Json_Testing_Template_6""}",,,,,,,
+Start listener action : logBeforeTestCase,Chrome 135.0.7049.96,,,24-04-2025 15:30:07,24-04-2025 15:30:07,"0,006s",PASSED
+delayDuration = 3,Chrome 135.0.7049.96,,,24-04-2025 15:30:07,24-04-2025 15:30:07,"0,000s",PASSED
+"comment(""Story: Add a Script Template"")",Chrome 135.0.7049.96,,,24-04-2025 15:30:07,24-04-2025 15:30:07,"0,002s",PASSED
+"comment(""Given that the user has logged into their account"")",Chrome 135.0.7049.96,,,24-04-2025 15:30:07,24-04-2025 15:30:07,"0,002s",PASSED
+"isLoggedIn = verifyElementNotPresent(findTestObject(""Object Repository/Page_Script Template Detail/button_Script Template""), 0, STOP_ON_FAILURE)",Chrome 135.0.7049.96,,,24-04-2025 15:30:07,24-04-2025 15:30:38,"31,142s",FAILED
+Start listener action : logAfterTestCase,Chrome 135.0.7049.96,,,24-04-2025 15:30:38,24-04-2025 15:30:39,"0,476s",PASSED

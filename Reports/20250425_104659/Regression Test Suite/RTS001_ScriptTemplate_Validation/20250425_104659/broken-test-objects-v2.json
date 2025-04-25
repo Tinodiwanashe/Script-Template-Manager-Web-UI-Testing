@@ -1,0 +1,13 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Script Template Detail/input_Search input_Input_SearchKeyword",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250425_104659/Regression Test Suite/RTS001_ScriptTemplate_Validation/20250425_104659/Object Repository/Page_Script Template Detail/input_Search input_Input_SearchKeyword_position.png"
+    }
+  ]
+}
