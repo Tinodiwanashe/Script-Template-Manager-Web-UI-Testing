@@ -18,18 +18,15 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //import com.kms.katalon.core.annotation.Keyword as Keyword
-WebUI.comment('Story: Add a Script Template')
+WebUI.comment('Story: Preview a Script Template')
 
 WebUI.comment('Given that the user has logged into their account')
 
 //Delay duration in seconds
-Number delayDuration = 3
-
-boolean isLoggedIn = WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_Script Template Detail/button_Script Template'), 
-    0, FailureHandling.STOP_ON_FAILURE)
+boolean isLoggedIn = WebUI.verifyElementPresent(findTestObject('Object Repository/Page_ScriptTemplates/span_Account_Name'), 3)
 
 'Login if user us not currently logged in.'
-if (isLoggedIn === true) {
+if (isLoggedIn === false) {
     'Login'
     WebUI.callTestCase(findTestCase('Authentication/Login'), [('Username') : findTestData('ScriptTemplateManager/Credentials').getValue(
                 1, 1), ('Password') : findTestData('ScriptTemplateManager/Credentials').getValue(2, 1), ('RememberMe') : findTestData(
@@ -39,25 +36,25 @@ if (isLoggedIn === true) {
 
     WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Script Template Detail/button_Script Template'), 
         0, FailureHandling.STOP_ON_FAILURE)
+} else {
+
+	WebUI.click(findTestObject('Object Repository/Page_Script Template Detail/button_Preview'))
+	
+	WebUI.click(findTestObject('Object Repository/Page_Script Template Detail/div_Json'))
+	
+	WebUI.setText(findTestObject('Object Repository/Page_Script Template Detail/textarea_Run_b18-TextArea_Json'), Json)
+	
+	WebUI.click(findTestObject('Object Repository/Page_Script Template Detail/button_Run'))
+	
+	WebUI.delay(delayDuration)
+	
+	WebUI.click(findTestObject('Object Repository/Page_Script Template Detail/button_Beautify'))
+	
+	WebUI.delay(delayDuration)
+	
+	WebUI.click(findTestObject('Object Repository/Page_Script Template Detail/button_Raw json'))
+	
+	WebUI.delay(delayDuration)
+	
+	WebUI.click(findTestObject('Object Repository/Page_Script Template Detail/button_Merge Fields'))
 }
-
-WebUI.click(findTestObject('Object Repository/Page_Script Template Detail/button_Preview'))
-
-WebUI.click(findTestObject('Object Repository/Page_Script Template Detail/div_Json'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Script Template Detail/textarea_Run_b18-TextArea_Json'), MergeFieldJson)
-
-WebUI.click(findTestObject('Object Repository/Page_Script Template Detail/button_Run'))
-
-WebUI.delay(delayDuration)
-
-WebUI.click(findTestObject('Object Repository/Page_Script Template Detail/button_Beautify'))
-
-WebUI.delay(delayDuration)
-
-WebUI.click(findTestObject('Object Repository/Page_Script Template Detail/button_Raw json'))
-
-WebUI.delay(delayDuration)
-
-WebUI.click(findTestObject('Object Repository/Page_Script Template Detail/button_Merge Fields'))
-

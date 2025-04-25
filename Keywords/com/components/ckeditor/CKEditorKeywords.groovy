@@ -35,15 +35,14 @@ public class CKEditorKeywords {
 		WebDriver driver = DriverFactory.getWebDriver()
 		WebUI.switchToFrame(iFrame, TIMEOUT)
 		WebElement body = driver.findElement(By.tagName("body"))
-		body.clear()
 		body.click()
-		body.sendKeys(Keys.ENTER)
+		body.clear()
+		//body.sendKeys(Keys.HOME)
+		
+		body.sendKeys("_")
+		body.sendKeys(Keys.ARROW_RIGHT)
+		WebUI.delay(3)
 		body.sendKeys(text)
-		/*
-		 for(int i = 0; i < text.length(); i++) {
-		 body.sendKeys(text)
-		 }
-		 */
 		driver.switchTo().defaultContent()
 	}
 
@@ -63,11 +62,6 @@ public class CKEditorKeywords {
 		body.click()
 		body.sendKeys(Keys.ENTER)
 		body.sendKeys(text)
-		/*
-		 for(int i = 0; i < text.length(); i++) {
-		 body.sendKeys(text)
-		 }
-		 */
 		driver.switchTo().defaultContent()
 	}
 

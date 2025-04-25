@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Account_Name</name>
+   <tag></tag>
+   <elementGuidId>94d802da-ff83-4dda-8ebe-7b66481f940a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b2-b5-Content']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.white-space-nowrap.ThemeGrid_MarginGutter</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#b1-Header >> internal:text=&quot;JvS 11&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>51a703e3-366e-4aa4-b5a1-654105c61f0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>white-space-nowrap  ThemeGrid_MarginGutter</value>
+      <webElementGuid>b80a9ca3-c4af-4554-aa4e-be9738af41a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>2976620f-3838-4b9b-a80b-f4fc33e9dd2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>JvS 11</value>
+      <webElementGuid>0a1c24b5-f3ae-4517-8c86-bf2ce2bdc091</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b2-b5-Content&quot;)/span[@class=&quot;white-space-nowrap  ThemeGrid_MarginGutter&quot;]</value>
+      <webElementGuid>e8b9e469-b7cd-49d7-944d-76de98afeba4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b2-b5-Content']/span</value>
+      <webElementGuid>cc393764-661b-4690-9522-369a4ad5ae02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='J1'])[1]/following::span[1]</value>
+      <webElementGuid>2cf830dc-4551-4a21-8c04-bc99b4132e6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clientèle Perks Capture'])[1]/following::span[2]</value>
+      <webElementGuid>7dbd3541-a03e-487f-afe6-6d3fe03ca862</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Script Templates'])[2]/preceding::span[1]</value>
+      <webElementGuid>ed1aaa2f-7a40-4738-ac8a-0284c4d95d26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Script Template'])[1]/preceding::span[1]</value>
+      <webElementGuid>44544af3-cd05-4755-a152-46c97895f39a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='JvS 11']/parent::*</value>
+      <webElementGuid>f2311d68-4a81-48eb-b50a-cddc73ac2c45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/span</value>
+      <webElementGuid>065d9a59-b5fc-44d2-bf19-c22b86877cf5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'JvS 11' or . = 'JvS 11')]</value>
+      <webElementGuid>f8e5da2e-bb22-46dd-9a71-3e00e2bd785c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

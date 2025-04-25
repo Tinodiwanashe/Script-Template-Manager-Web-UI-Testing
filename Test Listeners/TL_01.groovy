@@ -15,22 +15,21 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 
 import internal.GlobalVariable as GlobalVariable
 
-import org.junit.After
-import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.annotation.BeforeTestCase
 import com.kms.katalon.core.annotation.BeforeTestSuite
 import com.kms.katalon.core.annotation.AfterTestCase
 import com.kms.katalon.core.annotation.AfterTestSuite
 import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
+import com.kms.katalon.core.util.KeywordUtil
 
-class TC_Listener_01 {
+class TL_01 {
 	/**
 	 * Executes before every test case starts.
 	 * @param testCaseContext related information of the executed test case.
 	 */
 	@BeforeTestCase
-	def logBeforeTestCase(TestCaseContext testCaseContext) {
+	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
 		WebUI.comment("Initialize setup for Test Case Execution")
 		
 		KeywordUtil.markWarning("Test Case Name : " + testCaseContext.getTestCaseId())
@@ -43,7 +42,7 @@ class TC_Listener_01 {
 	 * @param testCaseContext related information of the executed test case.
 	 */
 	@AfterTestCase
-	def logAfterTestCase(TestCaseContext testCaseContext) {
+	def sampleAfterTestCase(TestCaseContext testCaseContext) {
 		WebUI.switchToDefaultContent()
 		//WebUI.closeWindowIndex(1)
 		//WebUI.switchToWindowIndex(0)
@@ -52,10 +51,13 @@ class TC_Listener_01 {
 		KeywordUtil.markWarning("Test Case Status : " + testCaseContext.getTestCaseStatus())
 		
 		if(testCaseContext.getTestCaseStatus().equals("FAILED")){
-			String screenshotPath = "Screenshots/" + testCaseContext.getTestCaseId() + ".png";
-			WebUI.takeScreenshot(screenshotPath);
-			println "Screenshot saved at: " + screenshotPath;
+
 		}
+		def timestamp = new Date().format("YYYY-MM-dd HH:mm:ss")
+		String screenshotPath = "Screenshots/" + testCaseContext.getTestCaseId() + "_" + timestamp + ".png";
+		
+		WebUI.takeScreenshot(screenshotPath);
+		println "Screenshot saved at: " + screenshotPath;
 		
 		//if there are any test-specific changes made, reset them
 		println "Reseting test configuration settings..."
@@ -68,7 +70,7 @@ class TC_Listener_01 {
 	 * @param testSuiteContext: related information of the executed test suite.
 	 */
 	@BeforeTestSuite
-	def logBeforeTestSuite(TestSuiteContext testSuiteContext) {
+	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
 		WebUI.comment("Preparing Environment for Test Suite Execution")
 		CustomKeywords.'com.helper.utilities.Utils.openWebApp'(GlobalVariable.SiteUrl, GlobalVariable.TimeOut)
 		KeywordUtil.markWarning("Before Test Suite Listener : " + testSuiteContext.getTestSuiteId())
@@ -80,7 +82,7 @@ class TC_Listener_01 {
 	 * @param testSuiteContext: related information of the executed test suite.
 	 */
 	@AfterTestSuite
-	def logAfterTestSuite(TestSuiteContext testSuiteContext) {
+	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
 		WebUI.comment("Finalizing Test Suite Execution")
 		WebUI.closeBrowser()
 		KeywordUtil.markWarning("After Test Suite Listener : " + testSuiteContext.getTestSuiteId())

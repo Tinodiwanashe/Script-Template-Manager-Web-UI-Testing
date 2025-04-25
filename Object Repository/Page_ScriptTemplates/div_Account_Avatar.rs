@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Account_Avatar</name>
+   <tag></tag>
+   <elementGuidId>e5d6b50f-4c58-443c-8fad-20f193619bf4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b2-$b6']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.avatar.border-radius-rounded.background-primary-lightest.text-primary-darker</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;user initials, J1&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>23ba950f-efb2-4710-ae78-be4b0e1f69be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>avatar  border-radius-rounded background-primary-lightest text-primary-darker </value>
+      <webElementGuid>607762ab-f701-4497-b6e7-dfdf832f5dbd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>user initials, J1</value>
+      <webElementGuid>2c9e729e-9ad3-4216-a183-943e074722f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>e490eb9d-2120-4b3c-8fec-aa7fbc7aae91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>J1</value>
+      <webElementGuid>17e4e527-1f7e-4bdc-8f6c-3b1e9f7e83fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b2-$b6&quot;)/div[@class=&quot;avatar  border-radius-rounded background-primary-lightest text-primary-darker&quot;]</value>
+      <webElementGuid>8556bfda-6a25-4101-b7e5-500aab3d0a31</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b2-$b6']/div</value>
+      <webElementGuid>5d5f5c69-395a-4e98-b534-df9c353b94ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clientèle Perks Capture'])[1]/following::div[8]</value>
+      <webElementGuid>6094ad5d-06c8-4336-b2c2-0038784fbbb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PFS Policy Option'])[1]/following::div[11]</value>
+      <webElementGuid>39dbffc0-5efa-421e-9097-a43d5c37cad5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Script Templates'])[2]/preceding::div[3]</value>
+      <webElementGuid>b51804d1-1f94-4e70-b437-d256fffea429</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div[2]/div/div/div/div/div/div</value>
+      <webElementGuid>f9014ad3-dbaf-4a09-b9f7-f35b832391e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'J1' or . = 'J1')]</value>
+      <webElementGuid>d7545439-b6df-43c6-9f4a-9be861ab0078</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

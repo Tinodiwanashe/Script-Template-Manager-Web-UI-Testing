@@ -27,6 +27,7 @@ WebUI.delay(3)
 
 WebUI.comment("Number of results returned upon search input")
 int numberOfItems = WebUI.getText(findTestObject('Object Repository/Page_ScriptTemplates/span_Number_Of_Items')).toInteger()
+WebUI.comment("Number of items: " + numberOfItems)
 
 WebUI.comment("Verify Template if name it is available in the list")
 if (numberOfItems >= 1) {
